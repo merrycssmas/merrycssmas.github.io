@@ -1,0 +1,40 @@
+%clearfix{
+	&:before, &:after {
+		content:"";
+		display:table;
+	}
+	&:after {
+		clear:both;
+	}
+	zoom:1;
+}
+
+%nolist {
+	ul {
+		padding-left:0;
+		list-style:none;
+	}
+}
+
+%plainlinks {
+	a {
+		text-decoration: none;
+	}
+}
+
+%noselect {
+	user-select:none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+%grayscale {
+	filter:grayscale(100%);
+}
+
+%doublearrow {
+	&:after {
+		content:"\00BB";
+		display: inline-block;
+		margin-left: 4px;
+	}
+}
