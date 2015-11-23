@@ -1,3 +1,48 @@
-* {
-    box-sizing: border-box;
+header{
+    background-color: #A42321;
+    height: 550px;
+    color: #F1ECDA;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    
+    article{
+        width: 75%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #title{
+        float: left;
+        width: 50%;
+        h1{
+            font-size: 6em;
+            font-weight: 700;
+        }
+    }
+    #subtitle{
+        float: right;
+        width: 50%;
+        text-align: right;
+        margin-top: 220px;
+        h2{
+            font-style: italic;
+            font-weight: 700;
+            margin-bottom: 10px;
+            font-size: 1.4em;
+        }
+        h3{
+            font-weight: 400;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            font-size: 1em;
+        }
+        a{
+            text-decoration: none;
+            color: #F1ECDA;
+            font-size: 1em;
+            &:hover{ text-decoration: underline; }
+        }
+    }
 }
