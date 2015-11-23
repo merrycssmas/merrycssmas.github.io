@@ -148,4 +148,5 @@ footer {
     footer .bio h1 {
       font-weight: 700;
       font-size: 2em;
-      font-style: italic; }
+      font-style: italic;
+      padding-bottom: 3px; }
