@@ -39,7 +39,7 @@ table {
   border-spacing: 0; }
 
 /* line 3, /Users/kellymiller/merrycssmas/assets/scss/utilities/_extends.scss */
-header article:after {
+header article:after, footer:after {
   clear: both;
   content: "";
   display: table; }
@@ -47,6 +47,32 @@ header article:after {
 /* line 1, /Users/kellymiller/merrycssmas/assets/scss/_global.scss */
 * {
   box-sizing: border-box; }
+
+/* line 6, /Users/kellymiller/merrycssmas/assets/scss/_global.scss */
+.day-post {
+  padding: 20px 0 25px; }
+
+/* line 10, /Users/kellymiller/merrycssmas/assets/scss/_global.scss */
+.day-link {
+  font-family: 'Sacramento', script;
+  font-size: 2em;
+  padding: 5px;
+  border-radius: 100;
+  text-align: center; }
+  /* line 17, /Users/kellymiller/merrycssmas/assets/scss/_global.scss */
+  .day-link a {
+    text-decoration: none;
+    color: white;
+    margin-top: 45px;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 100px;
+    margin-bottom: 15px; }
+
+/* line 28, /Users/kellymiller/merrycssmas/assets/scss/_global.scss */
+.wrapper {
+  margin: 0 12.5%;
+  margin-bottom: 45px; }
 
 /* line 1, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
 header {
@@ -98,3 +124,28 @@ header {
       /* line 46, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
       header #subtitle a:hover {
         text-decoration: underline; }
+
+/* line 1, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
+footer {
+  background-color: #A42321;
+  color: #F1ECDA;
+  font-family: 'Playfair Display', serif;
+  padding: 25px 0; }
+  /* line 8, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
+  footer #denise {
+    float: left;
+    width: 50%;
+    padding: 0 150px 0 300px; }
+  /* line 15, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
+  footer #kelly {
+    float: right;
+    width: 50%;
+    padding: 0 300px 0 150px; }
+  /* line 21, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
+  footer .bio {
+    line-height: 1.2; }
+    /* line 23, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
+    footer .bio h1 {
+      font-weight: 700;
+      font-size: 2em;
+      font-style: italic; }
