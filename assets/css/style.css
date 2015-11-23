@@ -135,18 +135,39 @@ footer {
   footer #denise {
     float: left;
     width: 50%;
-    padding: 0 150px 0 300px; }
-  /* line 15, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
+    padding: 0 100px; }
+    @media (max-width: 900px) {
+      footer #denise {
+        float: none;
+        width: 100%;
+        padding-bottom: 15px; } }
+    @media (max-width: 500px) {
+      footer #denise {
+        padding: 0 50px 25px; } }
+  /* line 23, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
   footer #kelly {
-    float: right;
+    float: left;
     width: 50%;
-    padding: 0 300px 0 150px; }
-  /* line 21, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
+    padding: 0 100px; }
+    @media (max-width: 900px) {
+      footer #kelly {
+        float: none;
+        width: 100%; } }
+    @media (max-width: 500px) {
+      footer #kelly {
+        padding: 0 50px 25px; } }
+  /* line 37, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
   footer .bio {
     line-height: 1.2; }
-    /* line 23, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
+    /* line 39, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
     footer .bio h1 {
       font-weight: 700;
-      font-size: 2em;
+      font-size: 1.5em;
       font-style: italic;
       padding-bottom: 3px; }
+      @media (max-width: 500px) {
+        footer .bio h1 {
+          font-size: 1em; } }
+    @media (max-width: 500px) {
+      footer .bio h2 {
+        font-size: .8em; } }
