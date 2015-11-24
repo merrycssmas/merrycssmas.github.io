@@ -8,23 +8,49 @@ footer{
     #denise{
         float: left;
         width: 50%;
-//        padding: 25px 200px;
-        padding: 0 150px 0 300px;
+        padding: 0 100px;
+        
+        @include max-width(900px){
+            float: none;
+            width: 100%;
+            padding-bottom: 15px;
+        }
+        @include max-width(500px){
+             padding: 0 50px 25px;   
+        }
     }
     
     #kelly{
-        float: right;
+        float: left;
         width: 50%;
-        padding: 0 300px 0 150px;
+        padding: 0 100px;
+        
+        @include max-width(900px){
+            float: none;
+            width: 100%;
+        }
+        @include max-width(500px){
+             padding: 0 50px 25px;   
+        }
     }
     
     .bio{
         line-height: 1.2;
         h1{
             font-weight: 700;
-            font-size: 2em;
+            font-size: 1.5em;
             font-style: italic;
             padding-bottom: 3px;
+            
+            @include max-width(500px){
+                font-size: 1em;
+            }
+        }
+        
+        h2{
+            @include max-width(500px){
+                font-size: .8em;
+            }
         }
     }
     

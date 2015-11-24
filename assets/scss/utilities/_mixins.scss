@@ -1,0 +1,21 @@
+@mixin max-width($point) {
+	@if $point == mobile {
+		$point: $mobile-width;
+	}
+	@media (max-width: $point)  { @content; }
+}
+
+@mixin min-width($point) {
+	@if $point == mobile {
+		$point: $mobile-width;
+	}
+	@media (min-width: $point)  { @content; }
+}
+
+@mixin max-height($point) {
+	@media (max-height: $point)  { @content; }
+}
+
+@mixin min-height($point) {
+	@media (min-height: $point)  { @content; }
+} 

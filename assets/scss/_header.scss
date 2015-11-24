@@ -5,6 +5,14 @@ header{
     font-family: 'Playfair Display', serif;
     position: relative;
     
+    @include max-width(900px){
+        height: 350px;
+    }
+    
+    @include max-width(500px){
+        height: 200px; 
+    }
+    
     article{
         width: 75%;
         position: absolute;
@@ -17,9 +25,27 @@ header{
     #title{
         float: left;
         width: 50%;
+        @include max-width(500px){
+            float: none;
+            width: 100%;
+        }
         h1{
             font-size: 6em;
-            font-weight: 700;
+            font-weight: 700;        
+            @include max-width(900px){
+                font-size: 4em;
+                padding-top: 50px;
+            }
+            @include max-width(500px){
+                font-size: 2em;
+                width: 100%;
+                margin-bottom: 15px;
+            }
+            br{
+                @include max-width(500px){
+                    display: none;
+                }
+            }
         }
     }
     #subtitle{
@@ -27,23 +53,49 @@ header{
         width: 50%;
         text-align: right;
         margin-top: 220px;
+        @include max-width(900px){
+            margin-top: 150px;
+        }
+        @include max-width(500px){
+            float: none;
+            margin-top: 0;
+            width: 100%;
+            text-align: left;
+        }
+    
         h2{
             font-style: italic;
             font-weight: 700;
             margin-bottom: 10px;
             font-size: 1.4em;
+            @include max-width(900px){
+                font-size: 1.2em;
+            }
+            
+            @include max-width(500px){
+                margin-bottom: 8px;
+            }
         }
         h3{
             font-weight: 400;
             text-transform: uppercase;
             margin-bottom: 10px;
             font-size: 1em;
+            @include max-width(900px){
+                font-size: .7em;
+            }
+            @include max-width(500px){
+                margin-bottom: 0px;
+            }            
         }
         a{
             text-decoration: none;
             color: #F1ECDA;
             font-size: 1em;
             &:hover{ text-decoration: underline; }
+            @include max-width(900px){
+                font-size:.7em;
+            }
         }
     }
 }
