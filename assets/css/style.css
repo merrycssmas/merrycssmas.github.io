@@ -173,8 +173,45 @@ header {
 
 /* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day1.scss */
 #day-1 .day-link {
-  color: #A42321;
-  border: 1px solid #A42321; }
+  color: #A42321; }
+  /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day1.scss */
+  #day-1 .day-link a {
+    border: 1px solid #A42321;
+    padding: 25px 15px 15px;
+    line-height: 0; }
+/* line 11, /Users/kellymiller/merrycssmas/assets/scss/_day1.scss */
+#day-1 .wrapper {
+  background-color: #8B99C1;
+  padding: 150px 0; }
+  @media (max-width: 630px) {
+    #day-1 .wrapper {
+      padding: 100px 0; } }
+  /* line 19, /Users/kellymiller/merrycssmas/assets/scss/_day1.scss */
+  #day-1 .wrapper h1 {
+    font-family: 'Montserrat' sans-serif;
+    text-transform: uppercase;
+    color: #0D297F;
+    text-align: center;
+    font-size: 6em; }
+    @media (max-width: 900px) {
+      #day-1 .wrapper h1 {
+        font-size: 5em; } }
+    @media (max-width: 630px) {
+      #day-1 .wrapper h1 {
+        font-size: 4em; } }
+    @media (max-width: 520px) {
+      #day-1 .wrapper h1 {
+        font-size: 3em; } }
+    @media (max-width: 425) {
+      #day-1 .wrapper h1 {
+        font-size: 2em; } }
+  /* line 43, /Users/kellymiller/merrycssmas/assets/scss/_day1.scss */
+  #day-1 .wrapper span {
+    font-family: 'Rouge Script' cursive;
+    color: #E2E5EF;
+    text-transform: none;
+    font-size: 1.75em;
+    line-height: 0; }
 
 /* line 1, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
 footer {
