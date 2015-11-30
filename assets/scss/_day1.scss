@@ -22,21 +22,26 @@
             color: #0D297F;
             text-align: center;
             font-size: 6em;
+            line-height: 90px;
             
             @include max-width(900px){
                 font-size: 5em;
+                line-height: 72px;
             }
             
             @include max-width(630px){
                 font-size: 4em;
+                line-height: 58px;
             }
             
             @include max-width(520px){
                 font-size: 3em;
+                line-height: 42px;
             }
             
-            @include max-width(425){
+            @include max-width(425px){
                 font-size: 2em;
+                line-height: 30px;
             }
         }
     

@@ -192,20 +192,25 @@ header {
     text-transform: uppercase;
     color: #0D297F;
     text-align: center;
-    font-size: 6em; }
+    font-size: 6em;
+    line-height: 90px; }
     @media (max-width: 900px) {
       #day-1 .wrapper h1 {
-        font-size: 5em; } }
+        font-size: 5em;
+        line-height: 72px; } }
     @media (max-width: 630px) {
       #day-1 .wrapper h1 {
-        font-size: 4em; } }
+        font-size: 4em;
+        line-height: 58px; } }
     @media (max-width: 520px) {
       #day-1 .wrapper h1 {
-        font-size: 3em; } }
-    @media (max-width: 425) {
+        font-size: 3em;
+        line-height: 42px; } }
+    @media (max-width: 425px) {
       #day-1 .wrapper h1 {
-        font-size: 2em; } }
-  /* line 43, /Users/kellymiller/merrycssmas/assets/scss/_day1.scss */
+        font-size: 2em;
+        line-height: 30px; } }
+  /* line 48, /Users/kellymiller/merrycssmas/assets/scss/_day1.scss */
   #day-1 .wrapper span {
     font-family: 'Rouge Script' cursive;
     color: #E2E5EF;
