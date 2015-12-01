@@ -1,0 +1,57 @@
+#day-1{
+    .day-link{
+        color: #A42321;
+        a{
+            border: 1px solid #A42321;
+            padding: 25px 15px 15px;
+            line-height: 0;
+        }
+    }
+    
+    .wrapper{
+        background-color: #8B99C1;
+        padding: 150px 0;
+        
+        @include max-width(630px){
+            padding: 100px 0;
+        }
+        
+        h1 {
+            font-family: 'Montserrat' sans-serif;
+            text-transform: uppercase;
+            color: #0D297F;
+            text-align: center;
+            font-size: 6em;
+            line-height: 90px;
+            
+            @include max-width(900px){
+                font-size: 5em;
+                line-height: 72px;
+            }
+            
+            @include max-width(630px){
+                font-size: 4em;
+                line-height: 58px;
+            }
+            
+            @include max-width(520px){
+                font-size: 3em;
+                line-height: 42px;
+            }
+            
+            @include max-width(425px){
+                font-size: 2em;
+                line-height: 30px;
+            }
+        }
+    
+        span {
+            font-family: 'Rouge Script' cursive;
+            color: #E2E5EF;
+            text-transform: none;
+            font-size: 1.75em;
+            line-height: 0;
+        }
+    }
+
+}
