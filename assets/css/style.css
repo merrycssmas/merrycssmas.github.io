@@ -218,6 +218,32 @@ header {
     font-size: 1.75em;
     line-height: 0; }
 
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day3.scss */
+#day-3 .day-link {
+  color: #a42321; }
+  /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day3.scss */
+  #day-3 .day-link a {
+    border: 1px solid #a42321;
+    line-height: 0;
+    padding: 30px 21px 28px; }
+/* line 11, /Users/kellymiller/merrycssmas/assets/scss/_day3.scss */
+#day-3 .wrapper {
+  background-color: #6A7982;
+  padding: 200px 25px 50px 0; }
+  /* line 16, /Users/kellymiller/merrycssmas/assets/scss/_day3.scss */
+  #day-3 .wrapper h1 {
+    font-family: 'Josephin Sans' sans-serif;
+    color: #E0DEDC;
+    text-align: right;
+    font-size: 3em;
+    font-weight: 100;
+    text-shadow: 3px 2px 0px #495f6e;
+    line-height: 1.1em; }
+    /* line 25, /Users/kellymiller/merrycssmas/assets/scss/_day3.scss */
+    #day-3 .wrapper h1 span {
+      font-family: 'Sacramento';
+      font-size: 1.2em; }
+
 /* line 1, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
 footer {
   background-color: #A42321;
