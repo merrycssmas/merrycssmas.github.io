@@ -4,14 +4,26 @@
         a{
             border: 1px solid #a42321;
             line-height: 0;
-            padding: 30px 21px 28px;
+            padding: 26px 13px 20px;
         }
     }
     
     .wrapper{
-        background-color: #6A7982;
-//        background-color: #696866;
+//        background-color: #6A7982;
+        background-color: #696866;
         padding: 200px 25px 50px 0;
+        
+        @include max-width(900px){
+            padding: 185px 25px 50px 0;
+        }
+        
+        @include max-width(750px){
+            padding: 160px 25px 50px 0;
+        }
+        
+        @include max-width(450px){
+            padding: 112px 25px 50px 0;
+        }
         
         h1{
             font-family: 'Josephin Sans' sans-serif;
@@ -19,8 +31,25 @@
             text-align: right;
             font-size: 3em;
             font-weight: 100;
-            text-shadow: 3px 2px 0px rgba(73, 95, 110, 1);
+//            text-shadow: 3px 2px 0px rgba(73, 95, 110, 1);
+            text-shadow: 3px 2px 0px rgba(79, 78, 77, 1);
             line-height: 1.1em;
+            
+            @include max-width(900px){
+                font-size: 2.5em;
+            }
+            
+            @include max-width(750px){
+                font-size: 2em;
+            }
+            
+            @include max-width(585px){
+                font-size: 1.5em;
+            }
+            
+            @include max-width(450px){
+                font-size: 1em;
+            }
             
             span{
                 font-family: 'Sacramento';
