@@ -224,23 +224,18 @@ header {
   /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day2.scss */
   #day-2 .day-link a {
     border: 1px solid #A42321;
-    padding: 30px 15px 25px;
+    padding: 25px 10px 19px;
     line-height: 0; }
 /* line 9, /Users/kellymiller/merrycssmas/assets/scss/_day2.scss */
 #day-2 .wrapper {
-  padding-top: 65px;
+  padding: 90px 50px 50px;
   background: -webkit-linear-gradient(#fff, #ccc);
-  /* For Safari 5.1 to 6.0 */
-  /* For Opera 11.1 to 12.0 */
-  /* For Firefox 3.6 to 15 */
   background: linear-gradient(#fff, #ccc);
-  /* Standard syntax */
-  border: 10px double darkred;
-  height: 50vh; }
+  border: 10px double darkred; }
   @media (max-width: 630px) {
     #day-2 .wrapper {
       padding: 100px 0; } }
-/* line 23, /Users/kellymiller/merrycssmas/assets/scss/_day2.scss */
+/* line 22, /Users/kellymiller/merrycssmas/assets/scss/_day2.scss */
 #day-2 #script h1 {
   text-align: center;
   font-family: "Playball", serif;
@@ -256,7 +251,7 @@ header {
   @media (max-width: 330px) {
     #day-2 #script h1 {
       font-size: 1.5em; } }
-/* line 44, /Users/kellymiller/merrycssmas/assets/scss/_day2.scss */
+/* line 43, /Users/kellymiller/merrycssmas/assets/scss/_day2.scss */
 #day-2 #jolly h1 {
   text-align: center;
   margin: 10px 10px 20px 10px;
@@ -321,6 +316,105 @@ header {
     #day-3 .wrapper h1 span {
       font-family: 'Sacramento', cursive;
       font-size: 1.2em; }
+
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
+#day-4 .day-link {
+  color: #A42321; }
+/* line 5, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
+#day-4 a {
+  border: 1px solid #A42321;
+  padding: 27px 10px 20px;
+  line-height: 0; }
+/* line 10, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
+#day-4 .wrapper {
+  background-color: #3a56a6;
+  text-align: center;
+  height: 320px;
+  padding: 20px; }
+/* line 19, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
+#day-4 #heart {
+  font-family: 'Arial', sans-serif;
+  font-size: 250px;
+  display: block;
+  height: 200px;
+  margin: auto;
+  text-align: center;
+  color: #dd468c;
+  -webkit-animation: pound 1s infinite;
+          animation: pound 1s infinite;
+  -webkit-transform-origin: center;
+      -ms-transform-origin: center;
+          transform-origin: center; }
+/* line 30, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
+#day-4 #text {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  top: 0;
+  -webkit-transform: translateY(-80%);
+      -ms-transform: translateY(-80%);
+          transform: translateY(-80%);
+  line-height: 4em; }
+  @media (max-width: 330px) {
+    #day-4 #text {
+      font-size: 1em;
+      line-height: 2em; } }
+/* line 42, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
+#day-4 p {
+  font-family: 'Lakki Reddy', sans-serif;
+  font-size: 2em;
+  color: white;
+  line-height: 2em; }
+  @media (max-width: 900px) {
+    #day-4 p {
+      font-size: 1.5em; } }
+  @media (max-width: 750px) {
+    #day-4 p {
+      font-size: 1.2em; } }
+  @media (max-width: 330px) {
+    #day-4 p {
+      font-size: 1em; } }
+/* line 61, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
+#day-4 span {
+  color: #dd468c; }
+
+@-webkit-keyframes "pound" {
+  /* line 79, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
+  0% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); }
+
+  /* line 86, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
+  50% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8); }
+
+  /* line 93, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes "pound" {
+  /* line 79, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
+  0% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); }
+
+  /* line 86, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
+  50% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8); }
+
+  /* line 93, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); } }
 
 /* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day5.scss */
 #day-5 .day-link {
