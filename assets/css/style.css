@@ -322,6 +322,44 @@ header {
       font-family: 'Sacramento', cursive;
       font-size: 1.2em; }
 
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day5.scss */
+#day-5 .day-link {
+  color: #a42321;
+  margin-top: 10px; }
+  /* line 5, /Users/kellymiller/merrycssmas/assets/scss/_day5.scss */
+  #day-5 .day-link a {
+    border: 1px solid #a42321;
+    line-height: 0;
+    display: inline;
+    padding: 2px 15px 1px; }
+/* line 12, /Users/kellymiller/merrycssmas/assets/scss/_day5.scss */
+#day-5 .wrapper {
+  position: relative;
+  margin-top: 25px; }
+  /* line 15, /Users/kellymiller/merrycssmas/assets/scss/_day5.scss */
+  #day-5 .wrapper h1 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 4em;
+    line-height: 1.2em;
+    background: -webkit-linear-gradient(#005B97, #3399CC, #CCE0F4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding: 30px 0; }
+    /* line 25, /Users/kellymiller/merrycssmas/assets/scss/_day5.scss */
+    #day-5 .wrapper h1:before {
+      content: open-quote;
+      color: aquamarine; }
+    /* line 30, /Users/kellymiller/merrycssmas/assets/scss/_day5.scss */
+    #day-5 .wrapper h1:after {
+      content: close-quote; }
+    @media (max-width: 610px) {
+      #day-5 .wrapper h1 {
+        font-size: 3em; } }
+    @media (max-width: 460px) {
+      #day-5 .wrapper h1 {
+        font-size: 2em; } }
+
 /* line 1, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
 footer {
   background-color: #A42321;
