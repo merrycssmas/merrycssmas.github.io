@@ -58,18 +58,18 @@ header article:after, footer:after {
   font-size: 2em;
   padding: 5px;
   border-radius: 100;
-  text-align: center; }
-  /* line 17, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_global.scss */
+  text-align: center;
+  margin-bottom: 15px; }
+  /* line 18, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_global.scss */
   .day-link a {
     text-decoration: none;
     color: #A42321;
     margin-top: 45px;
-    display: inline-block;
+    display: inline;
     border: 2px solid white;
-    border-radius: 100px;
-    margin-bottom: 15px; }
+    border-radius: 100px; }
 
-/* line 28, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_global.scss */
+/* line 29, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_global.scss */
 .wrapper {
   margin: 0 12.5%;
   margin-bottom: 45px; }
@@ -177,7 +177,7 @@ header {
   /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day1.scss */
   #day-1 .day-link a {
     border: 1px solid #A42321;
-    padding: 25px 15px 15px;
+    padding: 3px 21px;
     line-height: 0; }
 /* line 11, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day1.scss */
 #day-1 .wrapper {
@@ -224,7 +224,7 @@ header {
   /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day2.scss */
   #day-2 .day-link a {
     border: 1px solid #A42321;
-    padding: 25px 10px 19px;
+    padding: 4px 15px;
     line-height: 0; }
 /* line 9, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day2.scss */
 #day-2 .wrapper {
@@ -277,7 +277,7 @@ header {
   #day-3 .day-link a {
     border: 1px solid #a42321;
     line-height: 0;
-    padding: 26px 13px 20px; }
+    padding: 2px 16px; }
 /* line 11, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day3.scss */
 #day-3 .wrapper {
   background-color: #696866;
@@ -323,7 +323,7 @@ header {
 /* line 5, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
 #day-4 a {
   border: 1px solid #A42321;
-  padding: 27px 10px 20px;
+  padding: 3px 14px;
   line-height: 0; }
 /* line 10, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
 #day-4 .wrapper {
@@ -379,38 +379,38 @@ header {
   color: #dd468c; }
 
 @-webkit-keyframes "pound" {
-  /* line 79, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
+  /* line 67, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
   0% {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1); }
 
-  /* line 86, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
+  /* line 74, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
   50% {
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8); }
 
-  /* line 93, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
+  /* line 81, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
   100% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1); } }
 
 @keyframes "pound" {
-  /* line 79, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
+  /* line 67, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
   0% {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1); }
 
-  /* line 86, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
+  /* line 74, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
   50% {
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8); }
 
-  /* line 93, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
+  /* line 81, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
   100% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -458,35 +458,48 @@ header {
 #day-6 .day-link {
   color: #A42321;
   margin-top: 10px; }
-/* line 6, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day6.scss */
-#day-6 a {
-  border: 1px solid #A42321;
-  padding: 27px 10px 20px;
-  display: inline;
-  line-height: 0; }
-/* line 12, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day6.scss */
+  /* line 5, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day6.scss */
+  #day-6 .day-link a {
+    border: 1px solid #A42321;
+    padding: 4px 15px 0;
+    display: inline;
+    line-height: 0; }
+/* line 11, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day6.scss */
 #day-6 .wrapper {
   background-color: #c2100a;
   background-image: -webkit-repeating-linear-gradient(transparent, transparent 50px, rgba(0, 0, 0, 0.4) 50px, rgba(0, 0, 0, 0.4) 53px, transparent 53px, transparent 63px, rgba(0, 0, 0, 0.4) 63px, rgba(0, 0, 0, 0.4) 66px, transparent 66px, transparent 116px, rgba(0, 0, 0, 0.5) 116px, rgba(0, 0, 0, 0.5) 166px, rgba(255, 255, 255, 0.2) 166px, rgba(255, 255, 255, 0.2) 169px, rgba(0, 0, 0, 0.5) 169px, rgba(0, 0, 0, 0.5) 179px, rgba(255, 255, 255, 0.2) 179px, rgba(255, 255, 255, 0.2) 182px, rgba(0, 0, 0, 0.5) 182px, rgba(0, 0, 0, 0.5) 232px, transparent 232px), -webkit-repeating-linear-gradient(180deg, transparent, transparent 50px, rgba(0, 0, 0, 0.4) 50px, rgba(0, 0, 0, 0.4) 53px, transparent 53px, transparent 63px, rgba(0, 0, 0, 0.4) 63px, rgba(0, 0, 0, 0.4) 66px, transparent 66px, transparent 116px, rgba(0, 0, 0, 0.5) 116px, rgba(0, 0, 0, 0.5) 166px, rgba(255, 255, 255, 0.2) 166px, rgba(255, 255, 255, 0.2) 169px, rgba(0, 0, 0, 0.5) 169px, rgba(0, 0, 0, 0.5) 179px, rgba(255, 255, 255, 0.2) 179px, rgba(255, 255, 255, 0.2) 182px, rgba(0, 0, 0, 0.5) 182px, rgba(0, 0, 0, 0.5) 232px, transparent 232px), -webkit-repeating-linear-gradient(325deg, transparent, transparent 2px, rgba(0, 0, 0, 0.2) 2px, rgba(0, 0, 0, 0.2) 3px, transparent 3px, transparent 5px, rgba(0, 0, 0, 0.2) 5px);
   background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0, 0, 0, 0.4) 50px, rgba(0, 0, 0, 0.4) 53px, transparent 53px, transparent 63px, rgba(0, 0, 0, 0.4) 63px, rgba(0, 0, 0, 0.4) 66px, transparent 66px, transparent 116px, rgba(0, 0, 0, 0.5) 116px, rgba(0, 0, 0, 0.5) 166px, rgba(255, 255, 255, 0.2) 166px, rgba(255, 255, 255, 0.2) 169px, rgba(0, 0, 0, 0.5) 169px, rgba(0, 0, 0, 0.5) 179px, rgba(255, 255, 255, 0.2) 179px, rgba(255, 255, 255, 0.2) 182px, rgba(0, 0, 0, 0.5) 182px, rgba(0, 0, 0, 0.5) 232px, transparent 232px), repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0, 0, 0, 0.4) 50px, rgba(0, 0, 0, 0.4) 53px, transparent 53px, transparent 63px, rgba(0, 0, 0, 0.4) 63px, rgba(0, 0, 0, 0.4) 66px, transparent 66px, transparent 116px, rgba(0, 0, 0, 0.5) 116px, rgba(0, 0, 0, 0.5) 166px, rgba(255, 255, 255, 0.2) 166px, rgba(255, 255, 255, 0.2) 169px, rgba(0, 0, 0, 0.5) 169px, rgba(0, 0, 0, 0.5) 179px, rgba(255, 255, 255, 0.2) 179px, rgba(255, 255, 255, 0.2) 182px, rgba(0, 0, 0, 0.5) 182px, rgba(0, 0, 0, 0.5) 232px, transparent 232px), repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0, 0, 0, 0.2) 2px, rgba(0, 0, 0, 0.2) 3px, transparent 3px, transparent 5px, rgba(0, 0, 0, 0.2) 5px);
   text-align: center;
-  height: 320px;
-  padding: 20px; }
-/* line 21, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day6.scss */
-#day-6 .text {
-  line-height: 100px;
-  padding-top: 30px; }
+  height: 400px;
+  padding-top: 50px; }
+  @media (max-width: 330px) {
+    #day-6 .wrapper {
+      height: 200px; } }
 /* line 25, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day6.scss */
-#day-6 h1 {
-  font-family: 'Playfair Display', serif;
-  text-transform: uppercase;
-  font-size: 3em;
-  color: white; }
-/* line 31, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day6.scss */
-#day-6 h2 {
-  font-family: "Permanent Marker", cursive;
-  font-size: 3em;
-  color: #4f932f; }
+#day-6 .text {
+  display: block;
+  padding-top: 30px;
+  line-height: 100px; }
+  /* line 30, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day6.scss */
+  #day-6 .text h1, #day-6 .text h2 {
+    font-size: 4em;
+    color: white; }
+    @media (max-width: 900px) {
+      #day-6 .text h1, #day-6 .text h2 {
+        font-size: 3em; } }
+    @media (max-width: 600px) {
+      #day-6 .text h1, #day-6 .text h2 {
+        font-size: 2em; } }
+    @media (max-width: 330px) {
+      #day-6 .text h1, #day-6 .text h2 {
+        font-size: .7em; } }
+  /* line 48, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day6.scss */
+  #day-6 .text h1 {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase; }
+  /* line 52, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day6.scss */
+  #day-6 .text h2 {
+    font-family: "Permanent Marker", cursive; }
 
 /* line 1, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_footer.scss */
 footer {
