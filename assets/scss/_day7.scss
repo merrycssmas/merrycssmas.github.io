@@ -11,29 +11,45 @@
     
     .wrapper{
         background-color: #90CFBF;
-        border: 3px solid #FF9158;
+        border: 8px solid #FF9158;
+        border-radius: 10px;
         padding: 25px 0;
         
         ul{
             font-family: 'Lakki Reddy';
             text-align: center;
-            font-size: 3em;
+            font-size: 4em;
             color: #FDE28F;
-            background-color: #FF8158;
-            text-shadow: 2px 2px #28E0CA;
-            position: relative;
-            border-radius: 50% / 10%;
-            width: 75%;
+            text-shadow: 1px 1px #CC7446;
             margin: 0 auto;
-            height: 300px;
+            padding: 100px 0;
+            
+            @include max-width(1000px){
+                font-size: 2.5em;
+            }
+            
+            @include max-width(760px){
+                font-size: 2em;
+            }
             
             li{
-
-                background-color: #90CFBF;
+                background-color: #FF8158;
                 display: inline-block;
-                padding: 7px;
-               
+                padding: 13px;
+                margin-top: 45px;
+                height: 60px;
                 
+                @include max-width(1000px){
+                    height: 50px;
+                }
+                
+                &:nth-child(odd){
+                    transform: rotate(2deg);
+                }
+                
+                &:nth-child(even){
+                    transform: rotate(-5deg);
+                }
             }
         }
     }
