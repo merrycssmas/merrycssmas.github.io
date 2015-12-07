@@ -454,6 +454,38 @@ header {
       #day-5 .wrapper h1 {
         font-size: 2em; } }
 
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day7.scss */
+#day-7 .day-link {
+  color: #A42321; }
+  /* line 5, /Users/kellymiller/merrycssmas/assets/scss/_day7.scss */
+  #day-7 .day-link a {
+    border: 1px solid #A42321;
+    padding: 3px 16px;
+    line-height: 0; }
+/* line 12, /Users/kellymiller/merrycssmas/assets/scss/_day7.scss */
+#day-7 .wrapper {
+  background-color: #90CFBF;
+  border: 3px solid #FF9158;
+  padding: 25px 0; }
+  /* line 17, /Users/kellymiller/merrycssmas/assets/scss/_day7.scss */
+  #day-7 .wrapper ul {
+    font-family: 'Lakki Reddy';
+    text-align: center;
+    font-size: 3em;
+    color: #FDE28F;
+    background-color: #FF8158;
+    text-shadow: 2px 2px #28E0CA;
+    position: relative;
+    border-radius: 50%/10%;
+    width: 75%;
+    margin: 0 auto;
+    height: 300px; }
+    /* line 30, /Users/kellymiller/merrycssmas/assets/scss/_day7.scss */
+    #day-7 .wrapper ul li {
+      background-color: #90CFBF;
+      display: inline-block;
+      padding: 7px; }
+
 /* line 1, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
 footer {
   background-color: #A42321;
