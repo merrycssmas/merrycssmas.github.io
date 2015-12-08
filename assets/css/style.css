@@ -531,6 +531,38 @@ header {
             -ms-transform: rotate(-5deg);
                 transform: rotate(-5deg); }
 
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day9.scss */
+#day-9 .day-link {
+  color: #A42321; }
+  /* line 5, /Users/kellymiller/merrycssmas/assets/scss/_day9.scss */
+  #day-9 .day-link a {
+    border: 1px solid #a42321;
+    line-height: 0;
+    padding: 0 11px; }
+/* line 12, /Users/kellymiller/merrycssmas/assets/scss/_day9.scss */
+#day-9 .wrapper {
+  background-color: #005F03;
+  padding: 50px;
+  text-align: center; }
+  /* line 18, /Users/kellymiller/merrycssmas/assets/scss/_day9.scss */
+  #day-9 .wrapper h1 {
+    font-family: 'Alice';
+    color: rgba(0, 47, 2, 0.6);
+    font-size: 3em;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.15);
+    display: inline-block;
+    padding: 15px; }
+    @media (max-width: 600px) {
+      #day-9 .wrapper h1 {
+        font-size: 2em; } }
+    @media (max-width: 450px) {
+      #day-9 .wrapper h1 {
+        font-size: 1.3em; } }
+    /* line 35, /Users/kellymiller/merrycssmas/assets/scss/_day9.scss */
+    #day-9 .wrapper h1 span {
+      font-family: 'Rochester';
+      font-size: .8em; }
+
 /* line 1, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
 footer {
   background-color: #A42321;
