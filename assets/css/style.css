@@ -58,9 +58,8 @@ header article:after, footer:after {
   font-size: 2em;
   padding: 5px;
   border-radius: 100;
-  text-align: center;
-  margin-bottom: 15px; }
-  /* line 18, /Users/kellymiller/merrycssmas/assets/scss/_global.scss */
+  text-align: center; }
+  /* line 17, /Users/kellymiller/merrycssmas/assets/scss/_global.scss */
   .day-link a {
     text-decoration: none;
     color: #A42321;
@@ -69,7 +68,7 @@ header article:after, footer:after {
     border: 2px solid white;
     border-radius: 100px; }
 
-/* line 29, /Users/kellymiller/merrycssmas/assets/scss/_global.scss */
+/* line 28, /Users/kellymiller/merrycssmas/assets/scss/_global.scss */
 .wrapper {
   margin: 0 12.5%;
   margin-bottom: 45px; }
