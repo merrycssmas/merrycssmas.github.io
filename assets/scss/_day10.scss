@@ -1,0 +1,76 @@
+#day-10 {
+    .day-link {
+        color: #A42321;
+        a {
+            border: 1px solid #a42321;
+            line-height: 0;
+            padding: 0 13px;
+        }
+    }
+    .wrapper {
+        background-color: #dfe0df;
+        padding: 50px;
+        text-align: center;
+        
+        #text {
+            width: 440px;
+            margin: 0 auto;
+            #oh {
+                text-align: left;
+            }
+            h1 {
+                font-family: 'Rouge Script', cursive;
+                color: #b8b487;
+                font-size: 8em;
+                display: block;
+                text-align: right;
+            }
+            h2 {
+                font-family: 'PT Sans Narrow', sans-serif;
+                color: white;
+                font-size: 3em;
+                text-transform: uppercase;
+                text-align: left;
+                padding-bottom: 0;
+            }
+            //            @include max-width(600px){
+            //                font-size: 2em;
+            //            }
+            //            
+            //            @include max-width(450px){
+            //                font-size: 1.3em;
+            //            }
+        }
+    }
+    .tree {
+        display: block;
+        text-align: center;
+        height: 50px;
+        .branches {
+            border-bottom-left-radius: 50% 20px;
+            border-bottom-right-radius: 50% 20px;
+            border-color: green transparent;
+            border-style: solid;
+            border-width: 0 100px 120px;
+            bottom: -270px;
+            height: 0px;
+            left: -100px;
+            position: absolute;
+            width: 0;
+        }
+        .branches.middle {
+            border-bottom-left-radius: 50% 15px;
+            border-bottom-right-radius: 50% 15px;
+            border-width: 0 80px 100px;
+            bottom: -176px;
+            left: -80px;
+        }
+        .branches.top {
+            border-bottom-left-radius: 50% 12px;
+            border-bottom-right-radius: 50% 12px;
+            border-width: 0 60px 80px;
+            bottom: -100px;
+            left: -60px;
+        }
+    }
+}
