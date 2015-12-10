@@ -709,7 +709,7 @@ header {
   #day-10 .day-link a {
     border: 1px solid #a42321;
     line-height: 0;
-    padding: 0 10px; }
+    padding: 0 6px; }
 /* line 10, /Users/kellymiller/merrycssmas/assets/scss/_day10.scss */
 #day-10 .wrapper {
   background-color: #dfe0df;
