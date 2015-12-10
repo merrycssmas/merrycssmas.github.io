@@ -4,7 +4,7 @@
         a {
             border: 1px solid #A42321;
             line-height: 0;
-            padding: 0 12px;
+            padding: 0 9px;
         }
     }
     .wrapper {
@@ -18,13 +18,25 @@
         background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
         padding: 100px 0;
         text-align: center;
-        height: 350px;
         color: white;
         
         h1{
             font-family: 'Parisienne';
             font-size: 3em;
             line-height: 1.5em;
+            
+            @include max-width(850px){
+                font-size: 2.5em;
+            }
+            @include max-width(675px){
+                font-size: 2em;
+            }
+            @include max-width(530px){
+                font-size: 1.5em;
+            }
+            @include max-width(400px){
+                font-size: 1em;
+            }
         }
         
     }
