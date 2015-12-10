@@ -1,0 +1,118 @@
+                #day-10 {
+                    .day-link {
+                        color: #A42321;
+                        a {
+                            border: 1px solid #a42321;
+                            line-height: 0;
+                            padding: 0 10px;
+                        }
+                    }
+                    .wrapper {
+                        background-color: #dfe0df;
+                        padding: 50px;
+                        text-align: center;
+                        #text {
+                            width: 100%;
+                            margin: 0 auto;
+                            margin-top: -35px;
+                            @include min-width(850px) {
+                                width: 80%
+                            }
+                            #oh {
+                                text-align: left;
+                                @include max-width(750px) {
+                                    font-size: 6em;
+                                    line-height: initial;
+                                }
+                                @include max-width(600px) {
+                                    font-size: 5em;
+                                    line-height: initial;
+                                }
+                                @include max-width(450px) {
+                                    font-size: 3em;
+                                }
+                            }
+                            h1 {
+                                font-family: 'Rouge Script', cursive;
+                                color: #b8b487;
+                                font-size: 8em;
+                                display: block;
+                                text-align: right;
+                                @extend %clearfix;
+                                @include max-width(750px) {
+                                    font-size: 5em;
+                                }
+                                @include max-width(600px) {
+                                    font-size: 4em;
+                                    text-align: center;
+                                }
+                                @include max-width(450px) {
+                                    font-size: 3em;
+                                    text-align: center;
+                                }
+                            }
+                            h2 {
+                                font-family: 'PT Sans Narrow', sans-serif;
+                                color: white;
+                                font-size: 3em;
+                                text-transform: uppercase;
+                                text-align: left;
+                                padding-bottom: 0;
+                                @extend %clearfix;
+                                @include min-width(1000px) {
+                                    font-size: 3.5em;
+                                }
+                                @include max-width(670px) {
+                                    font-size: 2em;
+                                }
+                                @include max-width(450px) {
+                                    font-size: 1.3em;
+                                }
+                            }
+                        }
+                    }
+                    .tree {
+                        padding-left: 40px;
+                        display: inline-block;
+                        position: relative;
+                        top: 45px;
+                        right: -90px;
+                        width: 0;
+                        height: 0;
+                        border-style: solid;
+                        border-width: 0 30px 40px 30px;
+                        border-color: transparent transparent #326b45 transparent;
+                        &:before,
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            width: 0;
+                            height: 0;
+                            border-style: solid;
+                            border-color: transparent transparent #326b45 transparent;
+                        }
+                        &:before {
+                            top: -45px;
+                            right: -20px;
+                            border-width: 0 40px 52px 40px;
+                        }
+                        &:after {
+                            top: 5px;
+                            left: -33px;
+                            border-width: 0 60px 65px 50px;
+                        }
+                        @include max-width(660px) {
+                            display: none;
+                        }
+                    }
+                    .tree-two {
+                        @include max-width(600px) {
+                            display: none;
+                        }
+                    }
+                    .tree-three {
+                        @include max-width(750px) {
+                            display: none;
+                        }
+                    }
+                }
