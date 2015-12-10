@@ -87,7 +87,7 @@ header {
   @media (max-width: 500px) {
     header {
       height: 200px; } }
-  /* line 16, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
+  /* line 13, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
   header article {
     width: 75%;
     position: absolute;
@@ -96,7 +96,7 @@ header {
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%); }
-  /* line 25, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
+  /* line 21, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
   header #title {
     float: left;
     width: 50%; }
@@ -104,7 +104,7 @@ header {
       header #title {
         float: none;
         width: 100%; } }
-    /* line 32, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
+    /* line 28, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
     header #title h1 {
       font-size: 6em;
       font-weight: 700; }
@@ -120,7 +120,7 @@ header {
       @media (max-width: 500px) {
         header #title h1 br {
           display: none; } }
-  /* line 51, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
+  /* line 47, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
   header #subtitle {
     float: right;
     width: 50%;
@@ -135,7 +135,7 @@ header {
         margin-top: 0;
         width: 100%;
         text-align: left; } }
-    /* line 66, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
+    /* line 61, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
     header #subtitle h2 {
       font-style: italic;
       font-weight: 700;
@@ -147,7 +147,7 @@ header {
       @media (max-width: 500px) {
         header #subtitle h2 {
           margin-bottom: 8px; } }
-    /* line 79, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
+    /* line 73, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
     header #subtitle h3 {
       font-weight: 400;
       text-transform: uppercase;
@@ -159,17 +159,36 @@ header {
       @media (max-width: 500px) {
         header #subtitle h3 {
           margin-bottom: 0px; } }
-    /* line 91, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
-    header #subtitle a {
-      text-decoration: none;
-      color: #F1ECDA;
-      font-size: 1em; }
-      /* line 95, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
-      header #subtitle a:hover {
-        text-decoration: underline; }
-      @media (max-width: 900px) {
-        header #subtitle a {
-          font-size: .7em; } }
+      /* line 84, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
+      header #subtitle h3 a {
+        color: #F1ECDA;
+        text-decoration: none; }
+        /* line 88, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
+        header #subtitle h3 a .cl-effect-3 a {
+          padding: 8px 0;
+          color: #F1ECDA;
+          text-decoration: none; }
+        /* line 93, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
+        header #subtitle h3 a .cl-effect-3 a::after {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 100%;
+          height: 4px;
+          background: rgba(0, 0, 0, 0.1);
+          content: '';
+          opacity: 0;
+          -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+          transition: opacity 0.3s, transform 0.3s;
+          -webkit-transform: translateY(10px);
+          -ms-transform: translateY(10px);
+              transform: translateY(10px); }
+        /* line 110, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
+        header #subtitle h3 a .cl-effect-3 a:hover::after, header #subtitle h3 a .cl-effect-3 a:focus::after {
+          opacity: 1;
+          -webkit-transform: translateY(0px);
+          -ms-transform: translateY(0px);
+              transform: translateY(0px); }
 
 /* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day1.scss */
 #day-1 .day-link {

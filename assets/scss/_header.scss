@@ -1,19 +1,16 @@
-header{
+header {
     background-color: #A42321;
     height: 550px;
     color: #F1ECDA;
     font-family: 'Playfair Display', serif;
     position: relative;
-    
-    @include max-width(900px){
+    @include max-width(900px) {
         height: 350px;
     }
-    
-    @include max-width(500px){
-        height: 200px; 
+    @include max-width(500px) {
+        height: 200px;
     }
-    
-    article{
+    article {
         width: 75%;
         position: absolute;
         top: 50%;
@@ -21,81 +18,103 @@ header{
         transform: translate(-50%, -50%);
         @extend %clearfix;
     }
-    
-    #title{
+    #title {
         float: left;
         width: 50%;
-        @include max-width(500px){
+        @include max-width(500px) {
             float: none;
             width: 100%;
         }
-        h1{
+        h1 {
             font-size: 6em;
-            font-weight: 700;        
-            @include max-width(900px){
+            font-weight: 700;
+            @include max-width(900px) {
                 font-size: 4em;
                 padding-top: 50px;
             }
-            @include max-width(500px){
+            @include max-width(500px) {
                 font-size: 2em;
                 width: 100%;
                 margin-bottom: 15px;
             }
-            br{
-                @include max-width(500px){
+            br {
+                @include max-width(500px) {
                     display: none;
                 }
             }
         }
     }
-    #subtitle{
+    #subtitle {
         float: right;
         width: 50%;
         text-align: right;
         margin-top: 220px;
-        @include max-width(900px){
+        @include max-width(900px) {
             margin-top: 150px;
         }
-        @include max-width(500px){
+        @include max-width(500px) {
             float: none;
             margin-top: 0;
             width: 100%;
             text-align: left;
         }
-    
-        h2{
+        h2 {
             font-style: italic;
             font-weight: 700;
             margin-bottom: 10px;
             font-size: 1.4em;
-            @include max-width(900px){
+            @include max-width(900px) {
                 font-size: 1.2em;
             }
-            
-            @include max-width(500px){
+            @include max-width(500px) {
                 margin-bottom: 8px;
             }
         }
-        h3{
+        h3 {
             font-weight: 400;
             text-transform: uppercase;
             margin-bottom: 10px;
             font-size: 1em;
-            @include max-width(900px){
+            @include max-width(900px) {
                 font-size: .7em;
             }
-            @include max-width(500px){
+            @include max-width(500px) {
                 margin-bottom: 0px;
-            }            
-        }
-        a{
-            text-decoration: none;
-            color: #F1ECDA;
-            font-size: 1em;
-            &:hover{ text-decoration: underline; }
-            @include max-width(900px){
-                font-size:.7em;
             }
         }
     }
+}
+
+.cl-effect-3 a {
+    padding: 8px 0;
+    color: #F1ECDA;
+    text-decoration: none;
+}
+
+.cl-effect-3 a::after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: rgba(0, 0, 0, 0.1);
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+.cl-effect-3 a:hover::after,
+.cl-effect-3 a:focus::after {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+
 }
