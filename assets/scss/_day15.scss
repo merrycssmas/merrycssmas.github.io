@@ -1,13 +1,61 @@
+@keyframes red-blink{
+    0%, 100%{
+        color: #0C4883;
+        text-shadow: 0 0 0 #0C4883;
+    }
+    50%{
+        color: #FF1D25;
+        text-shadow: 0 0 21px #FF1D25; 
+    }
+}
+
+@keyframes green-blink{
+    0%, 100%{
+        color: #39B54A;
+        text-shadow: 0 0 21px #39B54A;
+    }
+    50%{
+        color:#0C4883;
+        text-shadow: 0 0 0 #0C4883;
+    }
+}
+
 #day-15{
     .day-link{
         color: #a42321;
         a{
             border: 1px solid #a42321;
             line-height: 0;
-            padding: 0 13px;
+            padding: 0 8px;
         }
     }
     
     .wrapper{
+        background-color: #0C4883;
+        padding: 100px 0;
+        
+        h1{
+            color: white;
+            font-family: 'Rochester';
+            text-align: center;
+            font-size: 5em;
+            text-shadow: 0 0 5px white;
+        }
+        
+        h2{
+            color: white;
+            font-family: 'Montserrat';
+            text-align: center;
+            font-size: 5em;
+            text-shadow: 0 0 3px white;
+        }
+        
+        #red{
+            animation: red-blink 3s ease-in-out infinite;
+        }
+        
+        #green{
+            animation: green-blink 3s ease-in-out infinite;
+        }
     }
 }
