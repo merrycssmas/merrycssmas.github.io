@@ -40,6 +40,13 @@
             text-align: center;
             font-size: 5em;
             text-shadow: 0 0 5px white;
+            @include max-width(700px){
+                font-size: 4em;
+            }
+            @include max-width(450px){
+                font-size: 3em;
+                
+            }
         }
         
         h2{
@@ -48,6 +55,12 @@
             text-align: center;
             font-size: 5em;
             text-shadow: 0 0 3px white;
+            @include max-width(700px){
+                font-size: 4em;
+            }
+            @include max-width(450px){
+                font-size: 2em;
+                }
         }
         
         #red{
@@ -57,5 +70,6 @@
         #green{
             animation: green-blink 3s ease-in-out infinite;
         }
-    }
+
+}
 }
