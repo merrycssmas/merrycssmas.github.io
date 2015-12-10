@@ -702,6 +702,86 @@ header {
       #day-9 .wrapper #right {
         border-width: 0 0 135px 230px; } }
 
+/* line 1, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
+#day-11 {
+  @-webkit-keyframes ring {
+    /* line 12, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
+    0% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg); }
+
+    /* line 15, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
+    25% {
+      -webkit-transform: rotate(30deg);
+              transform: rotate(30deg); }
+
+    /* line 18, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
+    50% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg); }
+
+    /* line 21, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
+    75% {
+      -webkit-transform: rotate(-30deg);
+              transform: rotate(-30deg); }
+
+    /* line 24, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
+    100% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg); } }
+  @keyframes ring {
+    /* line 12, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
+    0% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg); }
+
+    /* line 15, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
+    25% {
+      -webkit-transform: rotate(30deg);
+              transform: rotate(30deg); }
+
+    /* line 18, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
+    50% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg); }
+
+    /* line 21, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
+    75% {
+      -webkit-transform: rotate(-30deg);
+              transform: rotate(-30deg); }
+
+    /* line 24, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
+    100% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg); } }
+ }
+  /* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
+  #day-11 .day-link {
+    color: #a42321; }
+    /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
+    #day-11 .day-link a {
+      border: 1px solid #A42321;
+      line-height: 0;
+      padding: 0 12px; }
+  /* line 29, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
+  #day-11 .wrapper {
+    background-color: #6B061B;
+    padding: 50px 0;
+    text-align: center;
+    height: 350px; }
+    /* line 34, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
+    #day-11 .wrapper #bell {
+      font-size: 8em;
+      display: block;
+      padding: 25px;
+      -webkit-animation: ring 4s infinite normal ease-in-out forwards 3s;
+              animation: ring 4s infinite normal ease-in-out forwards 3s; }
+    /* line 47, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
+    #day-11 .wrapper h1 {
+      font-family: 'Sacramento', cursive;
+      color: white;
+      font-size: 2em; }
+
 /* line 1, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
 footer {
   background-color: #A42321;

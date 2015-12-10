@@ -1,0 +1,53 @@
+#day-11 {
+    .day-link {
+        color: #a42321;
+        a {
+            border: 1px solid #A42321;
+            line-height: 0;
+            padding: 0 12px;
+        }
+    }
+    
+    @keyframes ring {
+        0% {
+            transform: rotate(0deg);
+        }
+        25% {
+            transform: rotate(30deg);
+        }
+        50% {
+            transform: rotate(0deg);
+        }
+        75% {
+            transform: rotate(-30deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+    
+    .wrapper {
+        background-color: #6B061B;
+        padding: 50px 0;
+        text-align: center;
+        height: 350px;
+        #bell {
+            font-size: 8em;
+            display: block;
+            padding: 25px;
+            animation: ring 4s infinite normal ease-in-out forwards 3s;
+//            animation-name: ring;
+//            animation-duration: 4s;
+//            animation-iteration-count: infinite;
+//            animation-direction: normal;
+//            animation-timing-function: ease-in-out;
+//            animation-fill-mode: forwards;
+//            animation-delay: 3s;
+        }
+        h1 {
+            font-family: 'Sacramento', cursive;
+            color: white;
+            font-size: 2em;
+        }
+    }
+}
