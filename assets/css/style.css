@@ -541,7 +541,7 @@ header {
         padding: 30px 0; } }
     @media (max-width: 400px) {
       #day-7 .wrapper ul {
-        font-size: 1.2em; } }
+        font-size: 1em; } }
     /* line 50, /Users/kellymiller/merrycssmas/assets/scss/_day7.scss */
     #day-7 .wrapper ul li {
       background-color: #FF8158;
