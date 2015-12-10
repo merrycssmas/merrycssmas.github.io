@@ -9,5 +9,33 @@
     }
     
     .wrapper{
+        background-color: #7C2C38;
+        padding: 100px 25px;
+        position: absolute;
+        
+        #left-quote, #right-quote{
+            color: #5D212A;
+            font-size: 5em;
+            display: inline;
+            font-size: 25em;
+            position: fixed;
+            z-index: 0;
+        }
+        
+        #left-quote{
+            top: 0;
+        }
+        
+        #right-quote{
+ 
+        }
+        
+        h1{
+            font-family: 'Permanent Marker', cursive;
+            color: white;
+            text-align: center;
+            font-size: 2em;
+        }
     }
+    
 }

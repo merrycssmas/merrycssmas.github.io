@@ -1231,6 +1231,28 @@ header {
     border: 1px solid #a42321;
     line-height: 0;
     padding: 0 13px; }
+/* line 11, /Users/kellymiller/merrycssmas/assets/scss/_day17.scss */
+#day-17 .wrapper {
+  background-color: #7C2C38;
+  padding: 100px 25px;
+  position: absolute; }
+  /* line 16, /Users/kellymiller/merrycssmas/assets/scss/_day17.scss */
+  #day-17 .wrapper #left-quote, #day-17 .wrapper #right-quote {
+    color: #5D212A;
+    font-size: 5em;
+    display: inline;
+    font-size: 25em;
+    position: fixed;
+    z-index: 0; }
+  /* line 25, /Users/kellymiller/merrycssmas/assets/scss/_day17.scss */
+  #day-17 .wrapper #left-quote {
+    top: 0; }
+  /* line 33, /Users/kellymiller/merrycssmas/assets/scss/_day17.scss */
+  #day-17 .wrapper h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    text-align: center;
+    font-size: 2em; }
 
 /* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day19.scss */
 #day-19 .day-link {
