@@ -1065,10 +1065,15 @@ header {
 /* line 38, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
 #day-11 .wrapper {
   background-color: #6B061B;
-  padding: 50px 0;
-  text-align: center;
-  height: 350px; }
-  /* line 43, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
+  padding: 75px 0;
+  text-align: center; }
+  @media (max-width: 700px) {
+    #day-11 .wrapper {
+      padding: 50px 0; } }
+  @media (max-width: 500px) {
+    #day-11 .wrapper {
+      padding: 35px 0; } }
+  /* line 48, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   #day-11 .wrapper #bell {
     font-size: 8em;
     display: block;
@@ -1078,11 +1083,23 @@ header {
     -webkit-transform-origin: 50% 4px;
         -ms-transform-origin: 50% 4px;
             transform-origin: 50% 4px; }
-  /* line 50, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
+    @media (max-width: 700px) {
+      #day-11 .wrapper #bell {
+        font-size: 6em; } }
+    @media (max-width: 500px) {
+      #day-11 .wrapper #bell {
+        font-size: 5em; } }
+  /* line 61, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   #day-11 .wrapper h1 {
     font-family: 'Sacramento';
     color: white;
     font-size: 2em; }
+    @media (max-width: 700px) {
+      #day-11 .wrapper h1 {
+        font-size: 1.5em; } }
+    @media (max-width: 500px) {
+      #day-11 .wrapper h1 {
+        font-size: 1em; } }
 
 /* line 1, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
 footer {
