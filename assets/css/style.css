@@ -702,6 +702,15 @@ header {
       #day-9 .wrapper #right {
         border-width: 0 0 135px 230px; } }
 
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day15.scss */
+#day-15 .day-link {
+  color: #a42321; }
+  /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day15.scss */
+  #day-15 .day-link a {
+    border: 1px solid #a42321;
+    line-height: 0;
+    padding: 0 13px; }
+
 /* line 1, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
 footer {
   background-color: #A42321;
