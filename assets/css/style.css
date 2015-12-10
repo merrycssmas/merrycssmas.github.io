@@ -39,7 +39,7 @@ table {
   border-spacing: 0; }
 
 /* line 3, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/utilities/_extends.scss */
-header article:after, footer:after {
+header article:after, #day-10 .wrapper #text h1:after, #day-10 .wrapper #text h2:after, footer:after {
   clear: both;
   content: "";
   display: table; }
@@ -610,6 +610,98 @@ header {
       font-family: 'Rochester';
       font-size: .8em; }
 
+/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day9.scss */
+#day-9 .day-link {
+  color: #a42321; }
+  /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day9.scss */
+  #day-9 .day-link a {
+    border: 1px solid #A42321;
+    line-height: 0;
+    padding: 0 12px; }
+/* line 10, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day9.scss */
+#day-9 .wrapper {
+  background-color: #E8CAA8;
+  padding: 50px 0;
+  text-align: center;
+  height: 350px; }
+  /* line 16, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day9.scss */
+  #day-9 .wrapper #envelope {
+    margin: 0 auto;
+    width: 85%;
+    position: relative; }
+  /* line 21, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day9.scss */
+  #day-9 .wrapper #flap {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 120px 100px 120px;
+    border-color: transparent transparent #e289ae transparent;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%); }
+    @media (max-width: 450px) {
+      #day-9 .wrapper #flap {
+        border-width: 0 115px 100px 115px; } }
+  /* line 35, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day9.scss */
+  #day-9 .wrapper #letter {
+    background-color: #F1DBDA;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    padding: 10px 8px 30px;
+    z-index: 1; }
+    @media (max-width: 450px) {
+      #day-9 .wrapper #letter {
+        padding-bottom: 65px; } }
+  /* line 48, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day9.scss */
+  #day-9 .wrapper h1 {
+    font-family: 'Crafty Girls';
+    color: black;
+    font-size: 1em;
+    line-height: 1.2em; }
+    @media (max-width: 450px) {
+      #day-9 .wrapper h1 {
+        font-size: .9em; } }
+  /* line 58, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day9.scss */
+  #day-9 .wrapper #left {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 140px 0 0 240px;
+    border-color: transparent transparent transparent #e289ae;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    z-index: 2; }
+    @media (max-width: 450px) {
+      #day-9 .wrapper #left {
+        border-width: 135px 0 0 230px; } }
+  /* line 75, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day9.scss */
+  #day-9 .wrapper #right {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 140px 240px;
+    border-color: transparent transparent #e289ae transparent;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    z-index: 2; }
+    @media (max-width: 450px) {
+      #day-9 .wrapper #right {
+        border-width: 0 0 135px 230px; } }
+
 /* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
 #day-10 .day-link {
   color: #A42321; }
@@ -617,27 +709,53 @@ header {
   #day-10 .day-link a {
     border: 1px solid #a42321;
     line-height: 0;
-    padding: 0 13px; }
+    padding: 0 10px; }
 /* line 10, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
 #day-10 .wrapper {
   background-color: #dfe0df;
   padding: 50px;
   text-align: center; }
-  /* line 15, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
+  /* line 14, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
   #day-10 .wrapper #text {
-    width: 440px;
-    margin: 0 auto; }
-    /* line 18, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -35px; }
+    @media (min-width: 850px) {
+      #day-10 .wrapper #text {
+        width: 80%; } }
+    /* line 21, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
     #day-10 .wrapper #text #oh {
       text-align: left; }
-    /* line 21, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
+      @media (max-width: 750px) {
+        #day-10 .wrapper #text #oh {
+          font-size: 6em;
+          line-height: initial; } }
+      @media (max-width: 600px) {
+        #day-10 .wrapper #text #oh {
+          font-size: 5em;
+          line-height: initial; } }
+      @media (max-width: 450px) {
+        #day-10 .wrapper #text #oh {
+          font-size: 3em; } }
+    /* line 35, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
     #day-10 .wrapper #text h1 {
       font-family: 'Rouge Script', cursive;
       color: #b8b487;
       font-size: 8em;
       display: block;
       text-align: right; }
-    /* line 28, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
+      @media (max-width: 750px) {
+        #day-10 .wrapper #text h1 {
+          font-size: 5em; } }
+      @media (max-width: 600px) {
+        #day-10 .wrapper #text h1 {
+          font-size: 4em;
+          text-align: center; } }
+      @media (max-width: 450px) {
+        #day-10 .wrapper #text h1 {
+          font-size: 3em;
+          text-align: center; } }
+    /* line 54, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
     #day-10 .wrapper #text h2 {
       font-family: 'PT Sans Narrow', sans-serif;
       color: white;
@@ -645,37 +763,54 @@ header {
       text-transform: uppercase;
       text-align: left;
       padding-bottom: 0; }
-/* line 45, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
+      @media (min-width: 1000px) {
+        #day-10 .wrapper #text h2 {
+          font-size: 3.5em; } }
+      @media (max-width: 670px) {
+        #day-10 .wrapper #text h2 {
+          font-size: 2em; } }
+      @media (max-width: 450px) {
+        #day-10 .wrapper #text h2 {
+          font-size: 1.3em; } }
+/* line 74, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
 #day-10 .tree {
-  display: block;
-  text-align: center;
-  height: 50px; }
-  /* line 49, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
-  #day-10 .tree .branches {
-    border-bottom-left-radius: 50% 20px;
-    border-bottom-right-radius: 50% 20px;
-    border-color: green transparent;
-    border-style: solid;
-    border-width: 0 100px 120px;
-    bottom: -270px;
-    height: 0px;
-    left: -100px;
+  padding-left: 40px;
+  display: inline-block;
+  position: relative;
+  top: 45px;
+  right: -90px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 30px 40px 30px;
+  border-color: transparent transparent #326b45 transparent; }
+  /* line 86, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
+  #day-10 .tree:before, #day-10 .tree:after {
+    content: "";
     position: absolute;
-    width: 0; }
-  /* line 61, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
-  #day-10 .tree .branches.middle {
-    border-bottom-left-radius: 50% 15px;
-    border-bottom-right-radius: 50% 15px;
-    border-width: 0 80px 100px;
-    bottom: -176px;
-    left: -80px; }
-  /* line 68, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
-  #day-10 .tree .branches.top {
-    border-bottom-left-radius: 50% 12px;
-    border-bottom-right-radius: 50% 12px;
-    border-width: 0 60px 80px;
-    bottom: -100px;
-    left: -60px; }
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent transparent #326b45 transparent; }
+  /* line 94, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
+  #day-10 .tree:before {
+    top: -45px;
+    right: -20px;
+    border-width: 0 40px 52px 40px; }
+  /* line 99, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
+  #day-10 .tree:after {
+    top: 5px;
+    left: -33px;
+    border-width: 0 60px 65px 50px; }
+  @media (max-width: 660px) {
+    #day-10 .tree {
+      display: none; } }
+@media (max-width: 600px) {
+  #day-10 .tree-two {
+    display: none; } }
+@media (max-width: 750px) {
+  #day-10 .tree-three {
+    display: none; } }
 
 /* line 1, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_footer.scss */
 footer {
