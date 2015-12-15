@@ -593,7 +593,7 @@ header {
     font-family: 'Alice';
     color: rgba(0, 47, 2, 0.6);
     font-size: 3em;
-    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.15);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.15);
     display: inline-block;
     padding: 15px; }
     @media (max-width: 600px) {
@@ -1388,14 +1388,55 @@ header {
     line-height: 0;
     padding: 0 13px; }
 
-/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day21.scss */
-#day-21 .day-link {
-  color: #a42321; }
-  /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day21.scss */
-  #day-21 .day-link a {
-    border: 1px solid #a42321;
-    line-height: 0;
-    padding: 0 13px; }
+/* line 1, /Users/kellymiller/merrycssmas/assets/scss/_day21.scss */
+#day-21 {
+  margin-top: 16px; }
+  /* line 3, /Users/kellymiller/merrycssmas/assets/scss/_day21.scss */
+  #day-21 .day-link {
+    color: #a42321; }
+    /* line 5, /Users/kellymiller/merrycssmas/assets/scss/_day21.scss */
+    #day-21 .day-link a {
+      border: 1px solid #a42321;
+      line-height: 0;
+      padding: 2px 8px; }
+  /* line 12, /Users/kellymiller/merrycssmas/assets/scss/_day21.scss */
+  #day-21 .wrapper {
+    background-color: #E5AA03;
+    color: #F2B700;
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+    z-index: -2; }
+    /* line 20, /Users/kellymiller/merrycssmas/assets/scss/_day21.scss */
+    #day-21 .wrapper #star {
+      position: absolute;
+      font-size: 11em;
+      top: -4px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+              transform: translateX(-50%);
+      color: #F2B700;
+      text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.15), 1px 1px 0px rgba(0, 0, 0, 0.15); }
+      @media (max-width: 500px) {
+        #day-21 .wrapper #star {
+          font-size: 6em;
+          top: 22px; } }
+    /* line 37, /Users/kellymiller/merrycssmas/assets/scss/_day21.scss */
+    #day-21 .wrapper h1 {
+      font-family: 'Alice', serif;
+      font-size: 5em;
+      text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.15), 1px 1px 0px rgba(0, 0, 0, 0.15);
+      position: relative;
+      z-index: 1; }
+      @media (max-width: 500px) {
+        #day-21 .wrapper h1 {
+          font-size: 3em; } }
+      /* line 49, /Users/kellymiller/merrycssmas/assets/scss/_day21.scss */
+      #day-21 .wrapper h1 span {
+        color: #E5AA03;
+        text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.15), -1px -1px 0px rgba(0, 0, 0, 0.15);
+        padding-bottom: 15px; }
 
 /* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day23.scss */
 #day-23 .day-link {

@@ -1,13 +1,58 @@
 #day-21{
+    margin-top: 16px;
     .day-link{
         color: #a42321;
         a{
             border: 1px solid #a42321;
             line-height: 0;
-            padding: 0 13px;
+            padding: 2px 8px;
         }
     }
     
     .wrapper{
+        background-color: #E5AA03;
+        color: #F2B700;
+        text-align: center;
+        padding: 50px 0;
+        position: relative;
+        z-index: -2;
+        
+        #star{
+            position: absolute;
+            font-size: 11em;
+            top: -4px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #F2B700;
+             text-shadow: -1px -1px 0 rgba(255,255,255,0.15), 
+                         1px 1px 0px rgba(0,0,0,0.15);
+            
+            @include max-width(500px){
+                font-size: 6em;
+                top: 22px;
+            }
+            
+        }
+        
+        h1{
+            font-family: 'Alice', serif;
+            font-size: 5em;
+            text-shadow: -1px -1px 0 rgba(255,255,255,0.15), 
+                         1px 1px 0px rgba(0,0,0,0.15);
+            position: relative;
+            z-index: 1;
+            
+            @include max-width(500px){
+                font-size: 3em;
+            }
+            
+            span{
+                color: #E5AA03;
+                text-shadow: 1px 1px 0 rgba(255,255,255,0.15), 
+                             -1px -1px 0px rgba(0,0,0,0.15);
+                padding-bottom: 15px;
+            }
+            
+        }
     }
 }
