@@ -4,37 +4,61 @@
         a{
             border: 1px solid #a42321;
             line-height: 0;
-            padding: 0 13px;
+            padding: 1px 9px;
         }
     }
     
     .wrapper{
         background-color: #7C2C38;
         padding: 100px 25px;
-        position: absolute;
+        position: relative;
         
         #left-quote, #right-quote{
             color: #5D212A;
             font-size: 5em;
             display: inline;
             font-size: 25em;
-            position: fixed;
-            z-index: 0;
+            position: absolute;
+            
+            @include max-width(430px){
+                font-size: 18em;
+            }
+
         }
         
         #left-quote{
             top: 0;
+            left: 0;
+            
+            @include max-width(430px){
+                top: 24px;
+            }
         }
         
         #right-quote{
- 
+            right: 0;
+            top: 30%;
+            
+            @include max-width(430px){
+                top: 45%;
+            }
         }
         
         h1{
             font-family: 'Permanent Marker', cursive;
             color: white;
             text-align: center;
-            font-size: 2em;
+            font-size: 1.5em;
+            position: relative;
+            z-index: 1;
+            
+            @include max-width(750px){
+                font-size: 1em;
+            }
+            
+            @include max-width(500px){
+                font-size: .75em;
+            }
         }
     }
     
