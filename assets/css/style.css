@@ -1072,6 +1072,7 @@ header {
       padding: 35px 0; } }
   /* line 48, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   #day-11 .wrapper #bell {
+    font: 'Arial','Helvetica';
     font-size: 8em;
     display: block;
     padding: 25px;
@@ -1086,7 +1087,7 @@ header {
     @media (max-width: 500px) {
       #day-11 .wrapper #bell {
         font-size: 5em; } }
-  /* line 61, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
+  /* line 62, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   #day-11 .wrapper h1 {
     font-family: 'Sacramento';
     color: white;
@@ -1326,6 +1327,139 @@ header {
   #day-15 .wrapper #green {
     -webkit-animation: green-blink 3s ease-in-out infinite;
             animation: green-blink 3s ease-in-out infinite; }
+
+@-webkit-keyframes hvr-wobble-horizontal {
+  /* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px); }
+
+  /* line 7, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px); }
+
+  /* line 12, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px); }
+
+  /* line 17, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px); }
+
+  /* line 22, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px); }
+
+  /* line 27, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); } }
+
+@keyframes hvr-wobble-horizontal {
+  /* line 34, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px); }
+
+  /* line 39, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px); }
+
+  /* line 44, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px); }
+
+  /* line 49, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px); }
+
+  /* line 54, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px); }
+
+  /* line 59, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); } }
+
+/* line 66, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+#day-16 .day-link {
+  color: #a42321; }
+  /* line 68, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+  #day-16 .day-link a {
+    border: 1px solid #A42321;
+    line-height: 0;
+    padding: 0 7px; }
+/* line 74, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+#day-16 .wrapper {
+  background-color: black;
+  padding: 50px 0;
+  text-align: center;
+  /* Wobble Horizontal */
+  /* Grow */ }
+  /* line 78, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+  #day-16 .wrapper ul {
+    list-style: none; }
+  /* line 81, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+  #day-16 .wrapper li {
+    color: white;
+    font-family: "Sacramento", cursive;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.8em;
+    line-height: 2em;
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff; }
+  /* line 93, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+  #day-16 .wrapper #red {
+    color: darkred;
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px darkred, 0 0 30px darkred, 0 0 40px darkred, 0 0 50px darkred; }
+  /* line 99, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+  #day-16 .wrapper .hvr-wobble-horizontal {
+    display: block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale; }
+  /* line 109, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+  #day-16 .wrapper .hvr-wobble-horizontal:hover, #day-16 .wrapper .hvr-wobble-horizontal:focus, #day-16 .wrapper .hvr-wobble-horizontal:active {
+    -webkit-animation-name: hvr-wobble-horizontal;
+    animation-name: hvr-wobble-horizontal;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1; }
+  /* line 120, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+  #day-16 .wrapper .hvr-grow {
+    display: block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: transform; }
+  /* line 134, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
+  #day-16 .wrapper .hvr-grow:hover, #day-16 .wrapper .hvr-grow:focus, #day-16 .wrapper .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+        transform: scale(1.1); }
 
 /* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day17.scss */
 #day-17 .day-link {
