@@ -1,0 +1,68 @@
+#day-18 {
+    .day-link {
+        color: #a42321;
+        a {
+            border: 1px solid #A42321;
+            line-height: 0;
+            padding: 0 7px;
+        }
+    }
+    .wrapper {
+        width: auto;
+        height: auto;
+        text-align: center;
+        position: relative;
+        margin-bottom: 100px;
+//        .rotated-box {
+//            display: block;
+//            width: 200px;
+//            height: 200px;
+//            border: 1px solid #c3a343;
+//            transform: rotateZ(45deg);
+//            transform-origin: center center;
+//        }
+//        .box {
+//            position: absolute;
+//            left: 0;
+//            right: 0;
+//            margin-left: auto;
+//            margin-right: auto;
+//            margin-top: 50px;
+//            top: 0;    
+//        }
+        
+        .joy {
+            position: relative;
+            top: 10%;
+            margin: 0 auto;
+            transform-origin: center center;
+            padding-top: 10%;
+            .gold-text {
+                display: block;
+                width: 100%;
+                color: #c3a343;
+                -webkit-text-fill-color: transparent;
+                background: -webkit-linear-gradient(transparent, transparent), url(http://theartmad.com/wp-content/uploads/Shiny-Gold-Texture-1.jpg) repeat;
+                background: -o-linear-gradient(transparent, transparent);
+                -webkit-background-clip: text;
+                background-size: 30% auto;
+                font-family: "sail", cursive;
+                font-size: 4em;
+                text-align: center;
+                @include max-width(700px) {
+                    font-size: 2em;
+                }
+            }
+            h2 {
+                font-family: 'Josefin slab', serif;
+                text-align: center;
+                font-weight: 300;
+                font-size: 1.5em;
+                @include max-width(700px) {
+                    font-size: 1em;
+                    line-height: 1.2em;
+                }
+            }
+        }
+    }
+}
