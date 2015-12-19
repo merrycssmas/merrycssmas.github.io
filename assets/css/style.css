@@ -1587,63 +1587,91 @@ header {
           font-size: 1em;
           line-height: 1.2em; } }
 
-/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+@-webkit-keyframes ding {
+  /* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+  0%, 10% {
+    color: white;
+    text-shadow: 2px 2px 0 silver; }
+
+  /* line 6, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+  4% {
+    color: silver;
+    text-shadow: 2px 2px 4px #666777; } }
+
+@keyframes ding {
+  /* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+  0%, 10% {
+    color: white;
+    text-shadow: 2px 2px 0 silver; }
+
+  /* line 6, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+  4% {
+    color: silver;
+    text-shadow: 2px 2px 4px #666777; } }
+
+/* line 13, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
 #day-19 .day-link {
   color: #a42321; }
-  /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+  /* line 15, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
   #day-19 .day-link a {
     border: 1px solid #A42321;
     line-height: 0;
     padding: 0 7px; }
-/* line 10, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+/* line 21, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
 #day-19 .wrapper {
   box-sizing: border-box;
-  background-color: #191970; }
-  /* line 13, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
-  #day-19 .wrapper .circle {
-    position: relative;
-    display: block;
-    margin: 2em 0;
-    background-color: transparent;
-    color: #222;
-    text-align: center; }
-  /* line 21, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
-  #day-19 .wrapper .circle:after {
-    display: block;
-    padding-bottom: 100%;
-    width: 100%;
-    height: 0;
-    border-radius: 50%;
-    background-color: #ddd;
-    content: ""; }
-  /* line 30, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
-  #day-19 .wrapper .circle-inner {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
-  /* line 38, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
-  #day-19 .wrapper .circle-wrapper {
-    display: table;
-    width: 100%;
-    height: 100%;
-    color: darkslateblue; }
-  /* line 44, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
-  #day-19 .wrapper .circle-content {
+  background-color: #9fbfdf; }
+  /* line 24, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+  #day-19 .wrapper .content {
+    text-align: center;
     display: table-cell;
     padding: 1em;
     vertical-align: middle;
-    font-family: "opensans", sans-serif; }
-  @media (min-width: 480px) {
-    /* line 51, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
-    #day-19 .wrapper .circle-content {
-      font-size: 1.5em; } }
-  @media (min-width: 768px) {
-    /* line 56, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
-    #day-19 .wrapper .circle-content {
-      font-size: 2.2em; } }
+    font-family: "opensans", sans-serif;
+    font-size: 1.2em;
+    letter-spacing: .5em;
+    line-height: 1.3em;
+    color: #666777; }
+    @media (max-width: 900px) {
+      #day-19 .wrapper .content {
+        font-size: .7em;
+        line-height: 1.2em;
+        line-spacing: .2em; } }
+  /* line 40, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+  #day-19 .wrapper span {
+    color: white;
+    text-shadow: 1.5px 1.5px 0 silver; }
+    @media (max-width: 900px) {
+      #day-19 .wrapper span {
+        text-shadow: 1px 1px silver; } }
+/* line 48, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+#day-19 .blink {
+  -webkit-animation: flash 5s infinite;
+          animation: flash 5s infinite; }
+/* line 51, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+#day-19 .ding-one {
+  -webkit-animation: ding 5s infinite;
+          animation: ding 5s infinite;
+  -webkit-animation-delay: .2;
+          animation-delay: .2; }
+/* line 55, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+#day-19 .dong-one {
+  -webkit-animation: ding 5s infinite;
+          animation: ding 5s infinite;
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s; }
+/* line 59, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+#day-19 .ding-two {
+  -webkit-animation: ding 5s infinite;
+          animation: ding 5s infinite;
+  -webkit-animation-delay: .8s;
+          animation-delay: .8s; }
+/* line 63, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+#day-19 .dong-two {
+  -webkit-animation: ding 5s infinite;
+          animation: ding 5s infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s; }
 
 /* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day21.scss */
 #day-21 .day-link {
