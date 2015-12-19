@@ -1527,17 +1527,39 @@ header {
   height: auto;
   text-align: center;
   position: relative;
+  top: 5%;
   margin-bottom: 100px; }
-  /* line 34, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day18.scss */
-  #day-18 .wrapper .joy {
-    position: relative;
-    top: 10%;
+  /* line 18, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day18.scss */
+  #day-18 .wrapper .rotated-box {
     margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #c3a343;
+    -webkit-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
     -webkit-transform-origin: center center;
         -ms-transform-origin: center center;
-            transform-origin: center center;
-    padding-top: 10%; }
-    /* line 40, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day18.scss */
+            transform-origin: center center; }
+    @media (max-width: 700px) {
+      #day-18 .wrapper .rotated-box {
+        height: 100px;
+        width: 100px; } }
+  /* line 32, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day18.scss */
+  #day-18 .wrapper .box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    top: 0; }
+  /* line 42, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day18.scss */
+  #day-18 .wrapper .joy {
+    margin: 0 auto;
+    padding-top: 55px; }
+    /* line 45, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day18.scss */
     #day-18 .wrapper .joy .gold-text {
       display: block;
       width: 100%;
@@ -1549,16 +1571,17 @@ header {
       background-size: 30% auto;
       font-family: "sail", cursive;
       font-size: 4em;
+      line-height: 1.4em;
       text-align: center; }
       @media (max-width: 700px) {
         #day-18 .wrapper .joy .gold-text {
           font-size: 2em; } }
-    /* line 56, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day18.scss */
+    /* line 62, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day18.scss */
     #day-18 .wrapper .joy h2 {
       font-family: 'Josefin slab', serif;
       text-align: center;
       font-weight: 300;
-      font-size: 1.5em; }
+      font-size: 1.4em; }
       @media (max-width: 700px) {
         #day-18 .wrapper .joy h2 {
           font-size: 1em;
