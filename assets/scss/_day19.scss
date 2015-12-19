@@ -1,3 +1,14 @@
+@keyframes ding {
+    0%, 10% {
+        color: white;
+        text-shadow: 2px 2px 0 silver;
+    }
+    4% {
+        color: silver;
+        text-shadow: 2px 2px 4px #666777;
+    }
+}
+
 #day-19 {
     .day-link {
         color: #a42321;
@@ -9,53 +20,48 @@
     }
     .wrapper {
         box-sizing: border-box;
-        background-color: #191970;
-        .circle {
-            position: relative;
-            display: block;
-            margin: 2em 0;
-            background-color: transparent;
-            color: #222;
+        background-color: #9fbfdf;
+        .content {
             text-align: center;
-        }
-        .circle:after {
-            display: block;
-            padding-bottom: 100%;
-            width: 100%;
-            height: 0;
-            border-radius: 50%;
-            background-color: #ddd;
-            content: "";
-        }
-        .circle-inner {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-        .circle-wrapper {
-            display: table;
-            width: 100%;
-            height: 100%;
-            color: darkslateblue;
-        }
-        .circle-content {
             display: table-cell;
             padding: 1em;
             vertical-align: middle;
             font-family: "opensans", sans-serif;
-        }
-        @media (min-width: 480px) {
-            .circle-content {
-                font-size: 1.5em;
+            font-size: 1.2em;
+            letter-spacing: .5em;
+            line-height: 1.3em;
+            color: #666777;
+            @include max-width(900px) {
+                font-size: .7em;
+                line-height: 1.2em;
+                line-spacing: .2em;
             }
         }
-        @media (min-width: 768px) {
-            .circle-content {
-                font-size: 2.2em;
+        span {
+            color: white;
+            text-shadow: 1.5px 1.5px 0 silver;
+            @include max-width(900px) {
+                text-shadow: 1px 1px silver;
             }
         }
+    }
+    .blink {
+        animation: flash 5s infinite;
+    }
+    .ding-one {
+        animation: ding 5s infinite;
+        animation-delay: .2;
+    }
+    .dong-one {
+        animation: ding 5s infinite;
+        animation-delay: .6s;
+    }
+    .ding-two {
+        animation: ding 5s infinite;
+        animation-delay: .8s;
+    }
+    .dong-two {
+        animation: ding 5s infinite;
+        animation-delay: 1s;
     }
 }
