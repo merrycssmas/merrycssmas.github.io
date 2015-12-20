@@ -1673,6 +1673,75 @@ header {
   -webkit-animation-delay: 1s;
           animation-delay: 1s; }
 
+/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day20.scss */
+#day-20 .day-link {
+  color: #a42321; }
+  /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day20.scss */
+  #day-20 .day-link a {
+    border: 1px solid #A42321;
+    line-height: 0;
+    padding: 4px 4px; }
+/* line 11, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day20.scss */
+#day-20 .wrapper .container {
+  position: relative;
+  height: 180px;
+  display: block; }
+  @media (max-width: 500px) {
+    #day-20 .wrapper .container {
+      height: 120px; } }
+  /* line 19, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day20.scss */
+  #day-20 .wrapper .container .left, #day-20 .wrapper .container .right {
+    width: 50%;
+    position: absolute;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    z-index: -1; }
+    @media (max-width: 975px) {
+      #day-20 .wrapper .container .left, #day-20 .wrapper .container .right {
+        font-size: 2em; } }
+    @media (max-width: 700px) {
+      #day-20 .wrapper .container .left, #day-20 .wrapper .container .right {
+        font-size: 1em; } }
+  /* line 35, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day20.scss */
+  #day-20 .wrapper .container .left {
+    background-color: IndianRed;
+    color: #6aaf6a;
+    left: 0;
+    font-family: "Playfair Display", serif; }
+  /* line 41, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day20.scss */
+  #day-20 .wrapper .container .right {
+    background-color: #6aaf6a;
+    color: IndianRed;
+    right: 0;
+    font-family: "PT Sans Narrow", sans-serif; }
+  /* line 47, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day20.scss */
+  #day-20 .wrapper .container h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    background-color: white;
+    color: IndianRed;
+    bottom: 2em;
+    display: block;
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%); }
+    @media (max-width: 760px) {
+      #day-20 .wrapper .container h2 {
+        font-size: 1em;
+        bottom: 2em; } }
+    @media (max-width: 500px) {
+      #day-20 .wrapper .container h2 {
+        font-size: .7em;
+        bottom: 0; } }
+
 /* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day21.scss */
 #day-21 .day-link {
   color: #a42321; }
