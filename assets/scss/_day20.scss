@@ -10,10 +10,10 @@
     .wrapper {
         .container {
             position: relative;
-            height: 180px;
+            height: 260px;
             display: block;
             @include max-width(500px) {
-            height: 120px;
+                height: 200px;
             }
             .left,
             .right {
@@ -21,63 +21,79 @@
                 position: absolute;
                 padding-top: 50px;
                 padding-bottom: 70px;
-                text-align: center;
                 color: white;
-                font-size: 3em;
+                font-size: 1em;
+                line-height: 2em;
                 z-index: -1;
-                @include max-width(975px) {
-                    font-size: 2em;
+                @include max-width(850px) {
+                    font-size: .8em
                 }
                 @include max-width(700px) {
-                    font-size: 1em;
+                    font-size: .7em;
+                }
+                @include max-width(600px) {
+                    font-size: .6em;
+                }
+                @include max-width(400px) {
+                    font-size: .4em;
+                    line-height: 1em;
                 }
             }
             .left {
-                background-color: IndianRed;
-                color: #6aaf6a;
+                
+                background-color: #d1eae2;
+                
+                color: #90d1c0;
                 left: 0;
+                text-align: right;
                 font-family: "Playfair Display", serif;
+                padding-right: 10px;
+                h1 {
+                    margin-bottom: 10px;
+                }
             }
             .right {
-                background-color: #6aaf6a;
-                color: IndianRed;
+                background-color: #90d1c0;
+                color: #d1eae2;
                 right: 0;
-                font-family: "PT Sans Narrow", sans-serif;
+                text-align: left;
+                font-family: 'Quicksand', sans-serif;
+                font-weight: 800;
+                padding-left: 10px;
+                h1 {
+                    margin-top: 10px;
+                }
             }
             h2 {
-                font-family: 'Quicksand', sans-serif;
-                font-size: 1.5em;
+                font-family: 'Playball', sans-serif;
+                font-size: 2em;
                 line-height: 1.5em;
                 text-align: center;
-                background-color: white;
-                color: IndianRed;
-                bottom: 2em;
-                display: block;
-                position: absolute;
-                width: 60%;
+                color: #151564;
+                position: relative;
                 left: 50%;
+                top: 70%;
                 transform: translateX(-50%);
-                @include max-width(760px) {
-                    font-size: 1em;
-                    bottom: 2em;
+                @include max-width(850px) {
+                    top: 65%;
+                    font-size: 1.7em;
+                }
+                @include max-width(700px) {
+                    top: 60%;
+                    font-size: 1.5em;
+                }
+                @include max-width(600px) {
+                    top: 55%;
+                    font-size: 1.3em;
                 }
                 @include max-width(500px) {
-                    font-size: .7em;
-                    bottom: 0;
+                    top: 80%;
+                    font-size: 1em;
                 }
-//                &:before {
-//                    content: "Oh, but it's cold outside";
-//                    height: 60%;
-//                    position: absolute;
-//                    color: #6aaf6a;
-//                    overflow: hidden;
-//                    @include max-width(760px) {
-//                        font-size: 1.5em;
-//                    }
-//                    @include max-width(500px) {
-//                        font-size: 1em;
-//                    }
-//                }
+                @include max-width(400px) {
+                    top: 70%;
+                    font-size: 1em;
+                }
             }
         }
     }
