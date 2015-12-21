@@ -1,13 +1,67 @@
-#day-19{
-    .day-link{
+@keyframes ding {
+    0%, 10% {
+        color: white;
+        text-shadow: 2px 2px 0 silver;
+    }
+    4% {
+        color: silver;
+        text-shadow: 2px 2px 4px #666777;
+    }
+}
+
+#day-19 {
+    .day-link {
         color: #a42321;
-        a{
-            border: 1px solid #a42321;
+        a {
+            border: 1px solid #A42321;
             line-height: 0;
-            padding: 0 13px;
+            padding: 0 7px;
         }
     }
-    
-    .wrapper{
+    .wrapper {
+        box-sizing: border-box;
+        background-color: #9fbfdf;
+        .content {
+            text-align: center;
+            display: table-cell;
+            padding: 1em;
+            vertical-align: middle;
+            font-family: "opensans", sans-serif;
+            font-size: 1.2em;
+            letter-spacing: .5em;
+            line-height: 1.3em;
+            color: #666777;
+            @include max-width(900px) {
+                font-size: .7em;
+                line-height: 1.2em;
+                line-spacing: .2em;
+            }
+        }
+        span {
+            color: white;
+            text-shadow: 1.5px 1.5px 0 silver;
+            @include max-width(900px) {
+                text-shadow: 1px 1px silver;
+            }
+        }
+    }
+    .blink {
+        animation: flash 5s infinite;
+    }
+    .ding-one {
+        animation: ding 5s infinite;
+        animation-delay: .2;
+    }
+    .dong-one {
+        animation: ding 5s infinite;
+        animation-delay: .6s;
+    }
+    .ding-two {
+        animation: ding 5s infinite;
+        animation-delay: .8s;
+    }
+    .dong-two {
+        animation: ding 5s infinite;
+        animation-delay: 1s;
     }
 }
