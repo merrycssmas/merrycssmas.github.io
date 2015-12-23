@@ -4,10 +4,48 @@
         a{
             border: 1px solid #a42321;
             line-height: 0;
-            padding: 0 13px;
+            padding: 2px 5px;
         }
     }
     
     .wrapper{
+        background-color: #F0ECEC;
+        font-family: 'Vollkorn', serif;
+        padding: 5%;
+        column-count: 2;
+        column-width: 50%;
+        position: relative;
+        
+        @include max-width(500px){
+            column-count: 1;
+            column-width: 100%;
+        }
+        
+        p{
+            color: #2D2828;
+            padding-top: 5px;
+            font-size: 1em;
+            
+            sup{
+               vertical-align: super;
+               font-size: smaller; 
+            }
+        }
+        
+        .reference{
+            @include max-width(500px){
+                text-align: right;
+            }
+        }
+        
+        h1{
+            font-family: 'Vollkorn', serif;
+            font-style: italic;
+            margin-top: 15px;
+            padding-top: 10px;
+            display: inline-block;
+            border-top: 3px solid #2D2828;
+            
+        }
     }
 }
