@@ -1822,7 +1822,7 @@ header {
   #day-22 .day-link a {
     border: 1px solid #A42321;
     line-height: 0;
-    padding: 4px 4px; }
+    padding: 6px 5px; }
 /* line 10, /Users/kellymiller/merrycssmas/assets/scss/_day22.scss */
 #day-22 .wrapper {
   margin-bottom: 0; }
@@ -1953,7 +1953,47 @@ header {
   #day-23 .day-link a {
     border: 1px solid #a42321;
     line-height: 0;
-    padding: 0 13px; }
+    padding: 2px 5px; }
+/* line 11, /Users/kellymiller/merrycssmas/assets/scss/_day23.scss */
+#day-23 .wrapper {
+  background-color: #F0ECEC;
+  font-family: 'Vollkorn', serif;
+  padding: 5%;
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+  -webkit-column-width: 50%;
+     -moz-column-width: 50%;
+          column-width: 50%;
+  position: relative; }
+  @media (max-width: 500px) {
+    #day-23 .wrapper {
+      -webkit-column-count: 1;
+         -moz-column-count: 1;
+              column-count: 1;
+      -webkit-column-width: 100%;
+         -moz-column-width: 100%;
+              column-width: 100%; } }
+  /* line 24, /Users/kellymiller/merrycssmas/assets/scss/_day23.scss */
+  #day-23 .wrapper p {
+    color: #2D2828;
+    padding-top: 5px;
+    font-size: 1em; }
+    /* line 29, /Users/kellymiller/merrycssmas/assets/scss/_day23.scss */
+    #day-23 .wrapper p sup {
+      vertical-align: super;
+      font-size: smaller; }
+  @media (max-width: 500px) {
+    #day-23 .wrapper .reference {
+      text-align: right; } }
+  /* line 41, /Users/kellymiller/merrycssmas/assets/scss/_day23.scss */
+  #day-23 .wrapper h1 {
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    margin-top: 15px;
+    padding-top: 10px;
+    display: inline-block;
+    border-top: 3px solid #2D2828; }
 
 /* line 1, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
 footer {
