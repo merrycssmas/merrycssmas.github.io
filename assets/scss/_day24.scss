@@ -14,15 +14,11 @@
         .text {
             text-align: left;
             width: 80%;
-            margin: 0 auto;
-            padding: 60px;
-            padding-left: 30px;
+            margin-left: 10%;
+            padding-top: 60px;
+            padding-bottom: 60px;
             @include max-width(500px) {
-                width: 100%;
-                padding: 30px;
-            }
-            @include max-width(450px) {
-                padding-left: 10px;
+                margin-left: 0;
             }
         }
         h1 {
@@ -39,10 +35,10 @@
             @include max-width(500px) {
                 font-size: 1em;
             }
-            @include max-width(350px) {
-                font-size: .5em;
-            }
-            
+//            @include max-width(350px) {
+//                font-size: .5em;
+//            }
+//            
             
         }
         #font-three {
@@ -57,13 +53,13 @@
                 font-size: 4em;
                 padding-left: 20px;
             }
-            @include max-width(700px) {
-                font-size: 3em;
-                padding-left: 20px;
-            }
-            
+//            @include max-width(700px) {
+//                font-size: 3em;
+//                padding-left: 20px;
+//            }
+//            
             @include max-width(500px) {
-                font-size: 2.5em;
+                font-size: 2em;
                 padding-left: 15px;
             }
             
@@ -82,16 +78,16 @@
             @include max-width(900px) {
                 top: 5px;
             }
-            @include max-width(700px) {
-                top: 0;
-            }
-            
+//            @include max-width(700px) {
+//                top: 0;
+//            }
+//            
             @include max-width(500px) {
-                top: -10px;
+                top: -15px;
             }
-            @include max-width(400px) {
-                top: -50px;
-            }
+//            @include max-width(400px) {
+//                top: -50px;
+//            }
             
             
         }
