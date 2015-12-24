@@ -10,7 +10,7 @@
     .wrapper {
         padding: 5%;
         position: relative;
-        @include max-width(500px) {}
+        
         .text {
             text-align: left;
             width: 80%;
