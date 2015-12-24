@@ -33,15 +33,17 @@
             font-weight: 100;
             font-size: 2em;
             text-align: left;
-            @include max-width(350px) {
-                font-size: .5em;
+            @include max-width(900px) {
+                font-size: 1.5em;
             }
             @include max-width(500px) {
                 font-size: 1em;
             }
-            @include max-width(900px) {
-                font-size: 1.5em;
+            @include max-width(350px) {
+                font-size: .5em;
             }
+            
+            
         }
         #font-three {
             font-family: 'Cinzel Decorative', cursive;
@@ -51,19 +53,20 @@
             position: relative;
             padding-left: 30px;
             padding-top: 10px;
-            
-            @include max-width(500px) {
-                font-size: 2.5em;
-                padding-left: 15px;
+            @include max-width(900px) {
+                font-size: 4em;
+                padding-left: 20px;
             }
             @include max-width(700px) {
                 font-size: 3em;
                 padding-left: 20px;
             }
-            @include max-width(900px) {
-                font-size: 4em;
-                padding-left: 20px;
+            
+            @include max-width(500px) {
+                font-size: 2.5em;
+                padding-left: 15px;
             }
+            
         }
         .before:before {
             content: "before";
@@ -76,18 +79,21 @@
             width: 100px;
             left: -45px;
             top: 25px;
-            @include max-width(400px) {
-                top: -50px;
-            }
-            @include max-width(500px) {
-                top: -10px;
+            @include max-width(900px) {
+                top: 5px;
             }
             @include max-width(700px) {
                 top: 0;
             }
-            @include max-width(900px) {
-                top: 5px;
+            
+            @include max-width(500px) {
+                top: -10px;
             }
+            @include max-width(400px) {
+                top: -50px;
+            }
+            
+            
         }
         hr {
             border: 0;
