@@ -1,0 +1,99 @@
+#day-24 {
+    .day-link {
+        color: #a42321;
+        a {
+            border: 1px solid #a42321;
+            line-height: 0;
+            padding: 4px 2px;
+        }
+    }
+    .wrapper {
+        padding: 5%;
+        position: relative;
+        @include max-width(500px) {}
+        .text {
+            text-align: left;
+            width: 80%;
+            margin: 0 auto;
+            padding: 60px;
+            padding-left: 30px;
+            @include max-width(500px) {
+                width: 100%;
+                padding: 30px;
+            }
+            @include max-width(450px) {
+                padding-left: 10px;
+            }
+        }
+        h1 {
+            color: #b30000;
+        }
+        #font-one {
+            font-family: 'Karla', sans-serif;
+            font-weight: 100;
+            font-size: 2em;
+            text-align: left;
+            @include max-width(350px) {
+                font-size: .5em;
+            }
+            @include max-width(500px) {
+                font-size: 1em;
+            }
+            @include max-width(900px) {
+                font-size: 1.5em;
+            }
+        }
+        #font-three {
+            font-family: 'Cinzel Decorative', cursive;
+            text-transform: uppercase;
+            font-weight: 100;
+            font-size: 5.5em;
+            position: relative;
+            padding-left: 30px;
+            padding-top: 10px;
+            
+            @include max-width(500px) {
+                font-size: 2.5em;
+                padding-left: 15px;
+            }
+            @include max-width(700px) {
+                font-size: 3em;
+                padding-left: 20px;
+            }
+            @include max-width(900px) {
+                font-size: 4em;
+                padding-left: 20px;
+            }
+        }
+        .before:before {
+            content: "before";
+            font-family: 'Petit Formal Script', cursive;
+            text-transform: lowercase;
+            display: block;
+            transform: rotate(270deg);
+            position: absolute;
+            font-size: .3em;
+            width: 100px;
+            left: -45px;
+            top: 25px;
+            @include max-width(400px) {
+                top: -50px;
+            }
+            @include max-width(500px) {
+                top: -10px;
+            }
+            @include max-width(700px) {
+                top: 0;
+            }
+            @include max-width(900px) {
+                top: 5px;
+            }
+        }
+        hr {
+            border: 0;
+            height: 0;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+    }
+}
