@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 18, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/utilities/_reset.scss */
+/* line 18, /Users/kellymiller/merrycssmas/assets/scss/utilities/_reset.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -12,47 +12,47 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-/* line 28, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/utilities/_reset.scss */
+/* line 28, /Users/kellymiller/merrycssmas/assets/scss/utilities/_reset.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block; }
 
-/* line 31, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/utilities/_reset.scss */
+/* line 31, /Users/kellymiller/merrycssmas/assets/scss/utilities/_reset.scss */
 body {
   line-height: 1; }
 
-/* line 34, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/utilities/_reset.scss */
+/* line 34, /Users/kellymiller/merrycssmas/assets/scss/utilities/_reset.scss */
 ol, ul {
   list-style: none; }
 
-/* line 37, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/utilities/_reset.scss */
+/* line 37, /Users/kellymiller/merrycssmas/assets/scss/utilities/_reset.scss */
 blockquote, q {
   quotes: none; }
 
-/* line 41, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/utilities/_reset.scss */
+/* line 41, /Users/kellymiller/merrycssmas/assets/scss/utilities/_reset.scss */
 blockquote:before, blockquote:after, q:before, q:after {
   content: '';
   content: none; }
 
-/* line 45, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/utilities/_reset.scss */
+/* line 45, /Users/kellymiller/merrycssmas/assets/scss/utilities/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 3, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/utilities/_extends.scss */
+/* line 3, /Users/kellymiller/merrycssmas/assets/scss/utilities/_extends.scss */
 header article:after, #day-10 .wrapper #text h1:after, #day-10 .wrapper #text h2:after, footer:after {
   clear: both;
   content: "";
   display: table; }
 
-/* line 1, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_global.scss */
+/* line 1, /Users/kellymiller/merrycssmas/assets/scss/_global.scss */
 * {
   box-sizing: border-box; }
 
-/* line 6, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_global.scss */
+/* line 6, /Users/kellymiller/merrycssmas/assets/scss/_global.scss */
 .day-post {
   padding: 20px 0 25px; }
 
-/* line 10, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_global.scss */
+/* line 10, /Users/kellymiller/merrycssmas/assets/scss/_global.scss */
 .day-link {
   font-family: 'Sacramento', script;
   font-size: 2em;
@@ -60,7 +60,7 @@ header article:after, #day-10 .wrapper #text h1:after, #day-10 .wrapper #text h2
   border-radius: 100;
   text-align: center;
   margin-bottom: 15px; }
-  /* line 18, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_global.scss */
+  /* line 18, /Users/kellymiller/merrycssmas/assets/scss/_global.scss */
   .day-link a {
     text-decoration: none;
     color: #A42321;
@@ -69,12 +69,12 @@ header article:after, #day-10 .wrapper #text h1:after, #day-10 .wrapper #text h2
     border: 2px solid white;
     border-radius: 100px; }
 
-/* line 29, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_global.scss */
+/* line 29, /Users/kellymiller/merrycssmas/assets/scss/_global.scss */
 .wrapper {
   margin: 0 12.5%;
   margin-bottom: 45px; }
 
-/* line 1, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_header.scss */
+/* line 1, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
 header {
   background-color: #A42321;
   height: 550px;
@@ -87,7 +87,7 @@ header {
   @media (max-width: 500px) {
     header {
       height: 200px; } }
-  /* line 13, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_header.scss */
+  /* line 13, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
   header article {
     width: 75%;
     position: absolute;
@@ -96,7 +96,7 @@ header {
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%); }
-  /* line 21, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_header.scss */
+  /* line 21, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
   header #title {
     float: left;
     width: 50%; }
@@ -104,7 +104,7 @@ header {
       header #title {
         float: none;
         width: 100%; } }
-    /* line 28, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_header.scss */
+    /* line 28, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
     header #title h1 {
       font-size: 6em;
       font-weight: 700; }
@@ -120,7 +120,7 @@ header {
       @media (max-width: 500px) {
         header #title h1 br {
           display: none; } }
-  /* line 47, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_header.scss */
+  /* line 47, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
   header #subtitle {
     float: right;
     width: 50%;
@@ -135,7 +135,7 @@ header {
         margin-top: 0;
         width: 100%;
         text-align: left; } }
-    /* line 61, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_header.scss */
+    /* line 61, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
     header #subtitle h2 {
       font-style: italic;
       font-weight: 700;
@@ -147,7 +147,7 @@ header {
       @media (max-width: 500px) {
         header #subtitle h2 {
           margin-bottom: 8px; } }
-    /* line 73, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_header.scss */
+    /* line 73, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
     header #subtitle h3 {
       font-weight: 400;
       text-transform: uppercase;
@@ -160,28 +160,28 @@ header {
       @media (max-width: 500px) {
         header #subtitle h3 {
           margin-bottom: 0px; } }
-      /* line 86, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_header.scss */
+      /* line 86, /Users/kellymiller/merrycssmas/assets/scss/_header.scss */
       header #subtitle h3 a {
         display: inline-block;
         color: #F1ECDA;
         text-decoration: none; }
 
-/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day1.scss */
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day1.scss */
 #day-1 .day-link {
   color: #A42321; }
-  /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day1.scss */
+  /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day1.scss */
   #day-1 .day-link a {
     border: 1px solid #A42321;
     padding: 3px 21px;
     line-height: 0; }
-/* line 11, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day1.scss */
+/* line 11, /Users/kellymiller/merrycssmas/assets/scss/_day1.scss */
 #day-1 .wrapper {
   background-color: #8B99C1;
   padding: 150px 0; }
   @media (max-width: 630px) {
     #day-1 .wrapper {
       padding: 100px 0; } }
-  /* line 19, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day1.scss */
+  /* line 19, /Users/kellymiller/merrycssmas/assets/scss/_day1.scss */
   #day-1 .wrapper h1 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -205,7 +205,7 @@ header {
       #day-1 .wrapper h1 {
         font-size: 2em;
         line-height: 30px; } }
-  /* line 48, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day1.scss */
+  /* line 48, /Users/kellymiller/merrycssmas/assets/scss/_day1.scss */
   #day-1 .wrapper span {
     font-family: 'Rouge Script', cursive;
     color: #E2E5EF;
@@ -213,15 +213,15 @@ header {
     font-size: 1.75em;
     line-height: 0; }
 
-/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day2.scss */
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day2.scss */
 #day-2 .day-link {
   color: #A42321; }
-  /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day2.scss */
+  /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day2.scss */
   #day-2 .day-link a {
     border: 1px solid #A42321;
     padding: 4px 15px;
     line-height: 0; }
-/* line 9, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day2.scss */
+/* line 9, /Users/kellymiller/merrycssmas/assets/scss/_day2.scss */
 #day-2 .wrapper {
   padding: 90px 50px 50px;
   background: -webkit-linear-gradient(#fff, #ccc);
@@ -230,7 +230,7 @@ header {
   @media (max-width: 630px) {
     #day-2 .wrapper {
       padding: 100px 0; } }
-/* line 22, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day2.scss */
+/* line 22, /Users/kellymiller/merrycssmas/assets/scss/_day2.scss */
 #day-2 #script h1 {
   text-align: center;
   font-family: "Playball", cursive;
@@ -246,7 +246,7 @@ header {
   @media (max-width: 330px) {
     #day-2 #script h1 {
       font-size: 1.5em; } }
-/* line 43, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day2.scss */
+/* line 43, /Users/kellymiller/merrycssmas/assets/scss/_day2.scss */
 #day-2 #jolly h1 {
   text-align: center;
   margin: 10px 10px 20px 10px;
@@ -265,15 +265,15 @@ header {
     #day-2 #jolly h1 {
       font-size: 2em; } }
 
-/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day3.scss */
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day3.scss */
 #day-3 .day-link {
   color: #a42321; }
-  /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day3.scss */
+  /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day3.scss */
   #day-3 .day-link a {
     border: 1px solid #a42321;
     line-height: 0;
     padding: 2px 16px; }
-/* line 11, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day3.scss */
+/* line 11, /Users/kellymiller/merrycssmas/assets/scss/_day3.scss */
 #day-3 .wrapper {
   background-color: #696866;
   padding: 200px 25px 50px 0; }
@@ -286,7 +286,7 @@ header {
   @media (max-width: 450px) {
     #day-3 .wrapper {
       padding: 112px 25px 50px 0; } }
-  /* line 28, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day3.scss */
+  /* line 28, /Users/kellymiller/merrycssmas/assets/scss/_day3.scss */
   #day-3 .wrapper h1 {
     font-family: 'Josephin Sans', sans-serif;
     color: #E0DEDC;
@@ -307,26 +307,26 @@ header {
     @media (max-width: 450px) {
       #day-3 .wrapper h1 {
         font-size: 1em; } }
-    /* line 54, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day3.scss */
+    /* line 54, /Users/kellymiller/merrycssmas/assets/scss/_day3.scss */
     #day-3 .wrapper h1 span {
       font-family: 'Sacramento', cursive;
       font-size: 1.2em; }
 
-/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
 #day-4 .day-link {
   color: #A42321; }
-/* line 5, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
+/* line 5, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
 #day-4 a {
   border: 1px solid #A42321;
   padding: 3px 14px;
   line-height: 0; }
-/* line 10, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
+/* line 10, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
 #day-4 .wrapper {
   background-color: #3a56a6;
   text-align: center;
   height: 320px;
   padding: 20px; }
-/* line 19, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
+/* line 19, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
 #day-4 #heart {
   font-family: 'Arial', sans-serif;
   font-size: 250px;
@@ -340,7 +340,7 @@ header {
   -webkit-transform-origin: center;
       -ms-transform-origin: center;
           transform-origin: center; }
-/* line 30, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
+/* line 30, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
 #day-4 #text {
   text-align: center;
   display: inline-block;
@@ -354,7 +354,7 @@ header {
     #day-4 #text {
       font-size: 1em;
       line-height: 2em; } }
-/* line 42, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
+/* line 42, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
 #day-4 p {
   font-family: 'Lakki Reddy', cursive;
   font-size: 2em;
@@ -369,63 +369,63 @@ header {
   @media (max-width: 330px) {
     #day-4 p {
       font-size: 1em; } }
-/* line 61, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
+/* line 61, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
 #day-4 span {
   color: #dd468c; }
 
 @-webkit-keyframes "pound" {
-  /* line 67, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
+  /* line 67, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
   0% {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1); }
 
-  /* line 74, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
+  /* line 74, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
   50% {
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8); }
 
-  /* line 81, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
+  /* line 81, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
   100% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1); } }
 
 @keyframes "pound" {
-  /* line 67, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
+  /* line 67, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
   0% {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1); }
 
-  /* line 74, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
+  /* line 74, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
   50% {
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8); }
 
-  /* line 81, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day4.scss */
+  /* line 81, /Users/kellymiller/merrycssmas/assets/scss/_day4.scss */
   100% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1); } }
 
-/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day5.scss */
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day5.scss */
 #day-5 .day-link {
   color: #a42321;
   margin-top: 10px; }
-  /* line 5, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day5.scss */
+  /* line 5, /Users/kellymiller/merrycssmas/assets/scss/_day5.scss */
   #day-5 .day-link a {
     border: 1px solid #a42321;
     line-height: 0;
     display: inline;
     padding: 2px 15px 1px; }
-/* line 12, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day5.scss */
+/* line 12, /Users/kellymiller/merrycssmas/assets/scss/_day5.scss */
 #day-5 .wrapper {
   position: relative;
   margin-top: 25px; }
-  /* line 15, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day5.scss */
+  /* line 15, /Users/kellymiller/merrycssmas/assets/scss/_day5.scss */
   #day-5 .wrapper h1 {
     font-family: 'Abril Fatface', serif;
     font-size: 4em;
@@ -435,11 +435,11 @@ header {
     -webkit-text-fill-color: transparent;
     text-align: center;
     padding: 30px 0; }
-    /* line 25, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day5.scss */
+    /* line 25, /Users/kellymiller/merrycssmas/assets/scss/_day5.scss */
     #day-5 .wrapper h1:before {
       content: open-quote;
       color: aquamarine; }
-    /* line 30, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day5.scss */
+    /* line 30, /Users/kellymiller/merrycssmas/assets/scss/_day5.scss */
     #day-5 .wrapper h1:after {
       content: close-quote; }
     @media (max-width: 610px) {
@@ -449,17 +449,17 @@ header {
       #day-5 .wrapper h1 {
         font-size: 2em; } }
 
-/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day6.scss */
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day6.scss */
 #day-6 .day-link {
   color: #A42321;
   margin-top: 10px; }
-  /* line 5, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day6.scss */
+  /* line 5, /Users/kellymiller/merrycssmas/assets/scss/_day6.scss */
   #day-6 .day-link a {
     border: 1px solid #A42321;
     padding: 0 11px;
     display: inline;
     line-height: 0; }
-/* line 11, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day6.scss */
+/* line 11, /Users/kellymiller/merrycssmas/assets/scss/_day6.scss */
 #day-6 .wrapper {
   background-color: #c2160a;
   background-image: -webkit-repeating-linear-gradient(transparent, transparent 50px, rgba(0, 0, 0, 0.4) 50px, rgba(0, 0, 0, 0.4) 53px, transparent 53px, transparent 63px, rgba(0, 0, 0, 0.4) 63px, rgba(0, 0, 0, 0.4) 66px, transparent 66px, transparent 116px, rgba(0, 0, 0, 0.5) 116px, rgba(0, 0, 0, 0.5) 166px, rgba(255, 255, 255, 0.2) 166px, rgba(255, 255, 255, 0.2) 169px, rgba(0, 0, 0, 0.5) 169px, rgba(0, 0, 0, 0.5) 179px, rgba(255, 255, 255, 0.2) 179px, rgba(255, 255, 255, 0.2) 182px, rgba(0, 0, 0, 0.5) 182px, rgba(0, 0, 0, 0.5) 232px, transparent 232px), -webkit-repeating-linear-gradient(180deg, transparent, transparent 50px, rgba(0, 0, 0, 0.4) 50px, rgba(0, 0, 0, 0.4) 53px, transparent 53px, transparent 63px, rgba(0, 0, 0, 0.4) 63px, rgba(0, 0, 0, 0.4) 66px, transparent 66px, transparent 116px, rgba(0, 0, 0, 0.5) 116px, rgba(0, 0, 0, 0.5) 166px, rgba(255, 255, 255, 0.2) 166px, rgba(255, 255, 255, 0.2) 169px, rgba(0, 0, 0, 0.5) 169px, rgba(0, 0, 0, 0.5) 179px, rgba(255, 255, 255, 0.2) 179px, rgba(255, 255, 255, 0.2) 182px, rgba(0, 0, 0, 0.5) 182px, rgba(0, 0, 0, 0.5) 232px, transparent 232px), -webkit-repeating-linear-gradient(325deg, transparent, transparent 2px, rgba(0, 0, 0, 0.2) 2px, rgba(0, 0, 0, 0.2) 3px, transparent 3px, transparent 5px, rgba(0, 0, 0, 0.2) 5px);
@@ -469,7 +469,7 @@ header {
   @media (max-width: 330px) {
     #day-6 .wrapper {
       height: 200px; } }
-/* line 23, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day6.scss */
+/* line 23, /Users/kellymiller/merrycssmas/assets/scss/_day6.scss */
 #day-6 .text {
   display: block;
   padding-top: 30px;
@@ -477,7 +477,7 @@ header {
   @media (max-width: 600px) {
     #day-6 .text {
       line-height: 40px; } }
-  /* line 32, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day6.scss */
+  /* line 32, /Users/kellymiller/merrycssmas/assets/scss/_day6.scss */
   #day-6 .text h1, #day-6 .text h2 {
     font-size: 4em;
     color: white; }
@@ -490,29 +490,29 @@ header {
     @media (max-width: 330px) {
       #day-6 .text h1, #day-6 .text h2 {
         font-size: .7em; } }
-  /* line 50, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day6.scss */
+  /* line 50, /Users/kellymiller/merrycssmas/assets/scss/_day6.scss */
   #day-6 .text h1 {
     font-family: 'Playfair Display', serif;
     text-transform: uppercase; }
-  /* line 54, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day6.scss */
+  /* line 54, /Users/kellymiller/merrycssmas/assets/scss/_day6.scss */
   #day-6 .text h2 {
     font-family: "Permanent Marker", cursive; }
 
-/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day7.scss */
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day7.scss */
 #day-7 .day-link {
   color: #A42321; }
-  /* line 5, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day7.scss */
+  /* line 5, /Users/kellymiller/merrycssmas/assets/scss/_day7.scss */
   #day-7 .day-link a {
     border: 1px solid #A42321;
     padding: 0 14px;
     line-height: 0; }
-/* line 12, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day7.scss */
+/* line 12, /Users/kellymiller/merrycssmas/assets/scss/_day7.scss */
 #day-7 .wrapper {
   background-color: #90CFBF;
   border: 8px solid #FF9158;
   border-radius: 10px;
   padding: 25px 0; }
-  /* line 18, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day7.scss */
+  /* line 18, /Users/kellymiller/merrycssmas/assets/scss/_day7.scss */
   #day-7 .wrapper ul {
     font-family: 'Lakki Reddy';
     text-align: center;
@@ -539,7 +539,7 @@ header {
     @media (max-width: 400px) {
       #day-7 .wrapper ul {
         font-size: 1em; } }
-    /* line 50, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day7.scss */
+    /* line 50, /Users/kellymiller/merrycssmas/assets/scss/_day7.scss */
     #day-7 .wrapper ul li {
       background-color: #FF8158;
       display: inline-block;
@@ -564,31 +564,31 @@ header {
         #day-7 .wrapper ul li {
           height: 20px;
           padding: 5px; } }
-      /* line 80, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day7.scss */
+      /* line 80, /Users/kellymiller/merrycssmas/assets/scss/_day7.scss */
       #day-7 .wrapper ul li:nth-child(odd) {
         -webkit-transform: rotate(2deg);
             -ms-transform: rotate(2deg);
                 transform: rotate(2deg); }
-      /* line 84, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day7.scss */
+      /* line 84, /Users/kellymiller/merrycssmas/assets/scss/_day7.scss */
       #day-7 .wrapper ul li:nth-child(even) {
         -webkit-transform: rotate(-5deg);
             -ms-transform: rotate(-5deg);
                 transform: rotate(-5deg); }
 
-/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day8.scss */
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day8.scss */
 #day-8 .day-link {
   color: #A42321; }
-  /* line 5, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day8.scss */
+  /* line 5, /Users/kellymiller/merrycssmas/assets/scss/_day8.scss */
   #day-8 .day-link a {
     border: 1px solid #a42321;
     line-height: 0;
     padding: 0 13px; }
-/* line 12, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day8.scss */
+/* line 12, /Users/kellymiller/merrycssmas/assets/scss/_day8.scss */
 #day-8 .wrapper {
   background-color: #005F03;
   padding: 50px;
   text-align: center; }
-  /* line 18, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day8.scss */
+  /* line 18, /Users/kellymiller/merrycssmas/assets/scss/_day8.scss */
   #day-8 .wrapper h1 {
     font-family: 'Alice';
     color: rgba(0, 47, 2, 0.6);
@@ -602,31 +602,31 @@ header {
     @media (max-width: 450px) {
       #day-8 .wrapper h1 {
         font-size: 1.3em; } }
-    /* line 35, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day8.scss */
+    /* line 35, /Users/kellymiller/merrycssmas/assets/scss/_day8.scss */
     #day-8 .wrapper h1 span {
       font-family: 'Rochester';
       font-size: .8em; }
 
-/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day9.scss */
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day9.scss */
 #day-9 .day-link {
   color: #a42321; }
-  /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day9.scss */
+  /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day9.scss */
   #day-9 .day-link a {
     border: 1px solid #A42321;
     line-height: 0;
     padding: 0 12px; }
-/* line 10, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day9.scss */
+/* line 10, /Users/kellymiller/merrycssmas/assets/scss/_day9.scss */
 #day-9 .wrapper {
   background-color: #E8CAA8;
   padding: 50px 0;
   text-align: center;
   height: 350px; }
-  /* line 16, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day9.scss */
+  /* line 16, /Users/kellymiller/merrycssmas/assets/scss/_day9.scss */
   #day-9 .wrapper #envelope {
     margin: 0 auto;
     width: 85%;
     position: relative; }
-  /* line 21, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day9.scss */
+  /* line 21, /Users/kellymiller/merrycssmas/assets/scss/_day9.scss */
   #day-9 .wrapper #flap {
     width: 0;
     height: 0;
@@ -641,7 +641,7 @@ header {
     @media (max-width: 450px) {
       #day-9 .wrapper #flap {
         border-width: 0 115px 100px 115px; } }
-  /* line 35, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day9.scss */
+  /* line 35, /Users/kellymiller/merrycssmas/assets/scss/_day9.scss */
   #day-9 .wrapper #letter {
     background-color: #F1DBDA;
     width: 200px;
@@ -655,7 +655,7 @@ header {
     @media (max-width: 450px) {
       #day-9 .wrapper #letter {
         padding-bottom: 65px; } }
-  /* line 48, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day9.scss */
+  /* line 48, /Users/kellymiller/merrycssmas/assets/scss/_day9.scss */
   #day-9 .wrapper h1 {
     font-family: 'Crafty Girls';
     color: black;
@@ -664,7 +664,7 @@ header {
     @media (max-width: 450px) {
       #day-9 .wrapper h1 {
         font-size: .9em; } }
-  /* line 58, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day9.scss */
+  /* line 58, /Users/kellymiller/merrycssmas/assets/scss/_day9.scss */
   #day-9 .wrapper #left {
     width: 0;
     height: 0;
@@ -681,7 +681,7 @@ header {
     @media (max-width: 450px) {
       #day-9 .wrapper #left {
         border-width: 135px 0 0 230px; } }
-  /* line 75, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day9.scss */
+  /* line 75, /Users/kellymiller/merrycssmas/assets/scss/_day9.scss */
   #day-9 .wrapper #right {
     width: 0;
     height: 0;
@@ -699,20 +699,20 @@ header {
       #day-9 .wrapper #right {
         border-width: 0 0 135px 230px; } }
 
-/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day10.scss */
 #day-10 .day-link {
   color: #A42321; }
-  /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
+  /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day10.scss */
   #day-10 .day-link a {
     border: 1px solid #a42321;
     line-height: 0;
     padding: 0 6px; }
-/* line 10, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
+/* line 10, /Users/kellymiller/merrycssmas/assets/scss/_day10.scss */
 #day-10 .wrapper {
   background-color: #dfe0df;
   padding: 50px;
   text-align: center; }
-  /* line 14, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
+  /* line 14, /Users/kellymiller/merrycssmas/assets/scss/_day10.scss */
   #day-10 .wrapper #text {
     width: 100%;
     margin: 0 auto;
@@ -720,7 +720,7 @@ header {
     @media (min-width: 850px) {
       #day-10 .wrapper #text {
         width: 80%; } }
-    /* line 21, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
+    /* line 21, /Users/kellymiller/merrycssmas/assets/scss/_day10.scss */
     #day-10 .wrapper #text #oh {
       text-align: left; }
       @media (max-width: 750px) {
@@ -734,7 +734,7 @@ header {
       @media (max-width: 450px) {
         #day-10 .wrapper #text #oh {
           font-size: 3em; } }
-    /* line 35, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
+    /* line 35, /Users/kellymiller/merrycssmas/assets/scss/_day10.scss */
     #day-10 .wrapper #text h1 {
       font-family: 'Rouge Script', cursive;
       color: #b8b487;
@@ -752,7 +752,7 @@ header {
         #day-10 .wrapper #text h1 {
           font-size: 3em;
           text-align: center; } }
-    /* line 54, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
+    /* line 54, /Users/kellymiller/merrycssmas/assets/scss/_day10.scss */
     #day-10 .wrapper #text h2 {
       font-family: 'PT Sans Narrow', sans-serif;
       color: white;
@@ -769,7 +769,7 @@ header {
       @media (max-width: 450px) {
         #day-10 .wrapper #text h2 {
           font-size: 1.3em; } }
-/* line 74, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
+/* line 74, /Users/kellymiller/merrycssmas/assets/scss/_day10.scss */
 #day-10 .tree {
   padding-left: 40px;
   display: inline-block;
@@ -781,7 +781,7 @@ header {
   border-style: solid;
   border-width: 0 30px 40px 30px;
   border-color: transparent transparent #326b45 transparent; }
-  /* line 86, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
+  /* line 86, /Users/kellymiller/merrycssmas/assets/scss/_day10.scss */
   #day-10 .tree:before, #day-10 .tree:after {
     content: "";
     position: absolute;
@@ -789,12 +789,12 @@ header {
     height: 0;
     border-style: solid;
     border-color: transparent transparent #326b45 transparent; }
-  /* line 94, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
+  /* line 94, /Users/kellymiller/merrycssmas/assets/scss/_day10.scss */
   #day-10 .tree:before {
     top: -45px;
     right: -20px;
     border-width: 0 40px 52px 40px; }
-  /* line 99, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day10.scss */
+  /* line 99, /Users/kellymiller/merrycssmas/assets/scss/_day10.scss */
   #day-10 .tree:after {
     top: 5px;
     left: -33px;
@@ -810,256 +810,256 @@ header {
     display: none; } }
 
 @-webkit-keyframes ring {
-  /* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   0% {
     -webkit-transform: rotateZ(0);
             transform: rotateZ(0); }
 
-  /* line 3, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 3, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   1% {
     -webkit-transform: rotateZ(30deg);
             transform: rotateZ(30deg); }
 
-  /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   3% {
     -webkit-transform: rotateZ(-28deg);
             transform: rotateZ(-28deg); }
 
-  /* line 5, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 5, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   5% {
     -webkit-transform: rotateZ(34deg);
             transform: rotateZ(34deg); }
 
-  /* line 6, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 6, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   7% {
     -webkit-transform: rotateZ(-32deg);
             transform: rotateZ(-32deg); }
 
-  /* line 7, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 7, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   9% {
     -webkit-transform: rotateZ(30deg);
             transform: rotateZ(30deg); }
 
-  /* line 8, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 8, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   11% {
     -webkit-transform: rotateZ(-28deg);
             transform: rotateZ(-28deg); }
 
-  /* line 9, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 9, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   13% {
     -webkit-transform: rotateZ(26deg);
             transform: rotateZ(26deg); }
 
-  /* line 10, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 10, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   15% {
     -webkit-transform: rotateZ(-24deg);
             transform: rotateZ(-24deg); }
 
-  /* line 11, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 11, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   17% {
     -webkit-transform: rotateZ(22deg);
             transform: rotateZ(22deg); }
 
-  /* line 12, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 12, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   19% {
     -webkit-transform: rotateZ(-20deg);
             transform: rotateZ(-20deg); }
 
-  /* line 13, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 13, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   21% {
     -webkit-transform: rotateZ(18deg);
             transform: rotateZ(18deg); }
 
-  /* line 14, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 14, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   23% {
     -webkit-transform: rotateZ(-16deg);
             transform: rotateZ(-16deg); }
 
-  /* line 15, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 15, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   25% {
     -webkit-transform: rotateZ(14deg);
             transform: rotateZ(14deg); }
 
-  /* line 16, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 16, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   27% {
     -webkit-transform: rotateZ(-12deg);
             transform: rotateZ(-12deg); }
 
-  /* line 17, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 17, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   29% {
     -webkit-transform: rotateZ(10deg);
             transform: rotateZ(10deg); }
 
-  /* line 18, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 18, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   31% {
     -webkit-transform: rotateZ(-8deg);
             transform: rotateZ(-8deg); }
 
-  /* line 19, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 19, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   33% {
     -webkit-transform: rotateZ(6deg);
             transform: rotateZ(6deg); }
 
-  /* line 20, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 20, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   35% {
     -webkit-transform: rotateZ(-4deg);
             transform: rotateZ(-4deg); }
 
-  /* line 21, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 21, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   37% {
     -webkit-transform: rotateZ(2deg);
             transform: rotateZ(2deg); }
 
-  /* line 22, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 22, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   39% {
     -webkit-transform: rotateZ(-1deg);
             transform: rotateZ(-1deg); }
 
-  /* line 23, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 23, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   41% {
     -webkit-transform: rotateZ(1deg);
             transform: rotateZ(1deg); }
 
-  /* line 24, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 24, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   43% {
     -webkit-transform: rotateZ(0);
             transform: rotateZ(0); }
 
-  /* line 25, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 25, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   100% {
     -webkit-transform: rotateZ(0);
             transform: rotateZ(0); } }
 
 @keyframes ring {
-  /* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   0% {
     -webkit-transform: rotateZ(0);
             transform: rotateZ(0); }
 
-  /* line 3, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 3, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   1% {
     -webkit-transform: rotateZ(30deg);
             transform: rotateZ(30deg); }
 
-  /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   3% {
     -webkit-transform: rotateZ(-28deg);
             transform: rotateZ(-28deg); }
 
-  /* line 5, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 5, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   5% {
     -webkit-transform: rotateZ(34deg);
             transform: rotateZ(34deg); }
 
-  /* line 6, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 6, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   7% {
     -webkit-transform: rotateZ(-32deg);
             transform: rotateZ(-32deg); }
 
-  /* line 7, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 7, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   9% {
     -webkit-transform: rotateZ(30deg);
             transform: rotateZ(30deg); }
 
-  /* line 8, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 8, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   11% {
     -webkit-transform: rotateZ(-28deg);
             transform: rotateZ(-28deg); }
 
-  /* line 9, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 9, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   13% {
     -webkit-transform: rotateZ(26deg);
             transform: rotateZ(26deg); }
 
-  /* line 10, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 10, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   15% {
     -webkit-transform: rotateZ(-24deg);
             transform: rotateZ(-24deg); }
 
-  /* line 11, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 11, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   17% {
     -webkit-transform: rotateZ(22deg);
             transform: rotateZ(22deg); }
 
-  /* line 12, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 12, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   19% {
     -webkit-transform: rotateZ(-20deg);
             transform: rotateZ(-20deg); }
 
-  /* line 13, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 13, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   21% {
     -webkit-transform: rotateZ(18deg);
             transform: rotateZ(18deg); }
 
-  /* line 14, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 14, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   23% {
     -webkit-transform: rotateZ(-16deg);
             transform: rotateZ(-16deg); }
 
-  /* line 15, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 15, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   25% {
     -webkit-transform: rotateZ(14deg);
             transform: rotateZ(14deg); }
 
-  /* line 16, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 16, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   27% {
     -webkit-transform: rotateZ(-12deg);
             transform: rotateZ(-12deg); }
 
-  /* line 17, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 17, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   29% {
     -webkit-transform: rotateZ(10deg);
             transform: rotateZ(10deg); }
 
-  /* line 18, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 18, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   31% {
     -webkit-transform: rotateZ(-8deg);
             transform: rotateZ(-8deg); }
 
-  /* line 19, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 19, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   33% {
     -webkit-transform: rotateZ(6deg);
             transform: rotateZ(6deg); }
 
-  /* line 20, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 20, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   35% {
     -webkit-transform: rotateZ(-4deg);
             transform: rotateZ(-4deg); }
 
-  /* line 21, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 21, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   37% {
     -webkit-transform: rotateZ(2deg);
             transform: rotateZ(2deg); }
 
-  /* line 22, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 22, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   39% {
     -webkit-transform: rotateZ(-1deg);
             transform: rotateZ(-1deg); }
 
-  /* line 23, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 23, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   41% {
     -webkit-transform: rotateZ(1deg);
             transform: rotateZ(1deg); }
 
-  /* line 24, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 24, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   43% {
     -webkit-transform: rotateZ(0);
             transform: rotateZ(0); }
 
-  /* line 25, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 25, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   100% {
     -webkit-transform: rotateZ(0);
             transform: rotateZ(0); } }
 
-/* line 29, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+/* line 29, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
 #day-11 .day-link {
   color: #a42321; }
-  /* line 31, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 31, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   #day-11 .day-link a {
     border: 1px solid #A42321;
     line-height: 0;
     padding: 0 13px; }
-/* line 38, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+/* line 38, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
 #day-11 .wrapper {
   background-color: #6B061B;
   padding: 75px 0;
@@ -1070,7 +1070,7 @@ header {
   @media (max-width: 500px) {
     #day-11 .wrapper {
       padding: 35px 0; } }
-  /* line 48, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 48, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   #day-11 .wrapper #bell {
     font: 'Arial','Helvetica';
     font-size: 8em;
@@ -1087,7 +1087,7 @@ header {
     @media (max-width: 500px) {
       #day-11 .wrapper #bell {
         font-size: 5em; } }
-  /* line 62, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day11.scss */
+  /* line 62, /Users/kellymiller/merrycssmas/assets/scss/_day11.scss */
   #day-11 .wrapper h1 {
     font-family: 'Sacramento';
     color: white;
@@ -1099,15 +1099,15 @@ header {
       #day-11 .wrapper h1 {
         font-size: 1em; } }
 
-/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day12.scss */
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day12.scss */
 #day-12 .day-link {
   color: #a42321; }
-  /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day12.scss */
+  /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day12.scss */
   #day-12 .day-link a {
     border: 1px solid #A42321;
     line-height: 0;
     padding: 2px 9px; }
-/* line 10, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day12.scss */
+/* line 10, /Users/kellymiller/merrycssmas/assets/scss/_day12.scss */
 #day-12 .wrapper {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent 0);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent 0);
@@ -1118,7 +1118,7 @@ header {
   background-color: #B4D8E7;
   height: 0 50vh auto;
   padding: 20px; }
-/* line 25, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day12.scss */
+/* line 25, /Users/kellymiller/merrycssmas/assets/scss/_day12.scss */
 #day-12 #quote {
   color: white;
   width: 100%;
@@ -1135,7 +1135,7 @@ header {
   @media (max-width: 400px) {
     #day-12 #quote {
       font-size: 1.3em; } }
-/* line 42, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day12.scss */
+/* line 42, /Users/kellymiller/merrycssmas/assets/scss/_day12.scss */
 #day-12 span {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
@@ -1143,7 +1143,7 @@ header {
   vertical-align: middle;
   padding-left: 6px;
   padding-right: 13px; }
-/* line 50, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day12.scss */
+/* line 50, /Users/kellymiller/merrycssmas/assets/scss/_day12.scss */
 #day-12 h2 {
   font-family: "oswald", sans-serif;
   text-align: right;
@@ -1151,20 +1151,20 @@ header {
   padding: 0 auto;
   margin: 0 auto;
   padding-right: 5%; }
-/* line 58, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day12.scss */
+/* line 58, /Users/kellymiller/merrycssmas/assets/scss/_day12.scss */
 #day-12 #quote h1 {
   padding: 0 auto;
   margin: 0 auto; }
 
-/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day13.scss */
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day13.scss */
 #day-13 .day-link {
   color: #a42321; }
-  /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day13.scss */
+  /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day13.scss */
   #day-13 .day-link a {
     border: 1px solid #A42321;
     line-height: 0;
     padding: 0 9px; }
-/* line 10, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day13.scss */
+/* line 10, /Users/kellymiller/merrycssmas/assets/scss/_day13.scss */
 #day-13 .wrapper {
   background-color: black;
   background-image: -webkit-radial-gradient(white, rgba(255, 255, 255, 0.2) 2px, transparent 40px), -webkit-radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px), -webkit-radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px), -webkit-radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
@@ -1174,7 +1174,7 @@ header {
   padding: 100px 0;
   text-align: center;
   color: white; }
-  /* line 23, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day13.scss */
+  /* line 23, /Users/kellymiller/merrycssmas/assets/scss/_day13.scss */
   #day-13 .wrapper h1 {
     font-family: 'Parisienne';
     font-size: 3em;
@@ -1192,20 +1192,20 @@ header {
       #day-13 .wrapper h1 {
         font-size: 1em; } }
 
-/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day14.scss */
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day14.scss */
 #day-14 .day-link {
   color: #a42321; }
-  /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day14.scss */
+  /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day14.scss */
   #day-14 .day-link a {
     border: 1px solid #A42321;
     line-height: 0;
     padding: 0 6px; }
-/* line 10, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day14.scss */
+/* line 10, /Users/kellymiller/merrycssmas/assets/scss/_day14.scss */
 #day-14 .wrapper {
   background-color: #fffa50;
   padding: 100px 0;
   text-align: center; }
-  /* line 14, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day14.scss */
+  /* line 14, /Users/kellymiller/merrycssmas/assets/scss/_day14.scss */
   #day-14 .wrapper h1 {
     display: inline;
     font-family: 'Oswald', sans-serif;
@@ -1215,7 +1215,7 @@ header {
     letter-spacing: -2px;
     position: relative;
     color: rgba(46, 184, 92, 0.5); }
-    /* line 23, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day14.scss */
+    /* line 23, /Users/kellymiller/merrycssmas/assets/scss/_day14.scss */
     #day-14 .wrapper h1:after {
       content: "Merry + Bright";
       position: absolute;
@@ -1234,62 +1234,62 @@ header {
         font-size: 2.4em; } }
 
 @-webkit-keyframes red-blink {
-  /* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day15.scss */
+  /* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day15.scss */
   0%, 100% {
     color: #0C4883;
     text-shadow: 0 0 0 #0C4883; }
 
-  /* line 6, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day15.scss */
+  /* line 6, /Users/kellymiller/merrycssmas/assets/scss/_day15.scss */
   50% {
     color: #FF1D25;
     text-shadow: 0 0 21px #FF1D25; } }
 
 @keyframes red-blink {
-  /* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day15.scss */
+  /* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day15.scss */
   0%, 100% {
     color: #0C4883;
     text-shadow: 0 0 0 #0C4883; }
 
-  /* line 6, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day15.scss */
+  /* line 6, /Users/kellymiller/merrycssmas/assets/scss/_day15.scss */
   50% {
     color: #FF1D25;
     text-shadow: 0 0 21px #FF1D25; } }
 
 @-webkit-keyframes green-blink {
-  /* line 13, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day15.scss */
+  /* line 13, /Users/kellymiller/merrycssmas/assets/scss/_day15.scss */
   0%, 100% {
     color: #39B54A;
     text-shadow: 0 0 21px #39B54A; }
 
-  /* line 17, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day15.scss */
+  /* line 17, /Users/kellymiller/merrycssmas/assets/scss/_day15.scss */
   50% {
     color: #0C4883;
     text-shadow: 0 0 0 #0C4883; } }
 
 @keyframes green-blink {
-  /* line 13, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day15.scss */
+  /* line 13, /Users/kellymiller/merrycssmas/assets/scss/_day15.scss */
   0%, 100% {
     color: #39B54A;
     text-shadow: 0 0 21px #39B54A; }
 
-  /* line 17, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day15.scss */
+  /* line 17, /Users/kellymiller/merrycssmas/assets/scss/_day15.scss */
   50% {
     color: #0C4883;
     text-shadow: 0 0 0 #0C4883; } }
 
-/* line 24, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day15.scss */
+/* line 24, /Users/kellymiller/merrycssmas/assets/scss/_day15.scss */
 #day-15 .day-link {
   color: #a42321; }
-  /* line 26, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day15.scss */
+  /* line 26, /Users/kellymiller/merrycssmas/assets/scss/_day15.scss */
   #day-15 .day-link a {
     border: 1px solid #a42321;
     line-height: 0;
     padding: 0 8px; }
-/* line 33, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day15.scss */
+/* line 33, /Users/kellymiller/merrycssmas/assets/scss/_day15.scss */
 #day-15 .wrapper {
   background-color: #0C4883;
   padding: 100px 0; }
-  /* line 37, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day15.scss */
+  /* line 37, /Users/kellymiller/merrycssmas/assets/scss/_day15.scss */
   #day-15 .wrapper h1 {
     color: white;
     font-family: 'Rochester';
@@ -1302,7 +1302,7 @@ header {
     @media (max-width: 450px) {
       #day-15 .wrapper h1 {
         font-size: 3em; } }
-  /* line 52, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day15.scss */
+  /* line 52, /Users/kellymiller/merrycssmas/assets/scss/_day15.scss */
   #day-15 .wrapper h2 {
     color: white;
     font-family: 'Montserrat';
@@ -1315,96 +1315,96 @@ header {
     @media (max-width: 450px) {
       #day-15 .wrapper h2 {
         font-size: 2em; } }
-  /* line 66, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day15.scss */
+  /* line 66, /Users/kellymiller/merrycssmas/assets/scss/_day15.scss */
   #day-15 .wrapper #red {
     -webkit-animation: red-blink 3s ease-in-out infinite;
             animation: red-blink 3s ease-in-out infinite; }
-  /* line 70, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day15.scss */
+  /* line 70, /Users/kellymiller/merrycssmas/assets/scss/_day15.scss */
   #day-15 .wrapper #green {
     -webkit-animation: green-blink 3s ease-in-out infinite;
             animation: green-blink 3s ease-in-out infinite; }
 
 @-webkit-keyframes hvr-wobble-horizontal {
-  /* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+  /* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
   16.65% {
     -webkit-transform: translateX(8px);
     transform: translateX(8px); }
 
-  /* line 7, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+  /* line 7, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
   33.3% {
     -webkit-transform: translateX(-6px);
     transform: translateX(-6px); }
 
-  /* line 12, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+  /* line 12, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
   49.95% {
     -webkit-transform: translateX(4px);
     transform: translateX(4px); }
 
-  /* line 17, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+  /* line 17, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
   66.6% {
     -webkit-transform: translateX(-2px);
     transform: translateX(-2px); }
 
-  /* line 22, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+  /* line 22, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
   83.25% {
     -webkit-transform: translateX(1px);
     transform: translateX(1px); }
 
-  /* line 27, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+  /* line 27, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0); } }
 
 @keyframes hvr-wobble-horizontal {
-  /* line 34, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+  /* line 34, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
   16.65% {
     -webkit-transform: translateX(8px);
     transform: translateX(8px); }
 
-  /* line 39, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+  /* line 39, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
   33.3% {
     -webkit-transform: translateX(-6px);
     transform: translateX(-6px); }
 
-  /* line 44, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+  /* line 44, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
   49.95% {
     -webkit-transform: translateX(4px);
     transform: translateX(4px); }
 
-  /* line 49, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+  /* line 49, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
   66.6% {
     -webkit-transform: translateX(-2px);
     transform: translateX(-2px); }
 
-  /* line 54, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+  /* line 54, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
   83.25% {
     -webkit-transform: translateX(1px);
     transform: translateX(1px); }
 
-  /* line 59, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+  /* line 59, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0); } }
 
-/* line 66, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+/* line 66, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
 #day-16 .day-link {
   color: #a42321; }
-  /* line 68, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+  /* line 68, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
   #day-16 .day-link a {
     border: 1px solid #A42321;
     line-height: 0;
     padding: 0 7px; }
-/* line 74, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+/* line 74, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
 #day-16 .wrapper {
   background-color: black;
   padding: 50px 0;
   text-align: center;
   /* Wobble Horizontal */
   /* Grow */ }
-  /* line 78, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+  /* line 78, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
   #day-16 .wrapper ul {
     list-style: none; }
-  /* line 81, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+  /* line 81, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
   #day-16 .wrapper li {
     color: white;
     font-family: "Sacramento", cursive;
@@ -1413,11 +1413,11 @@ header {
     font-size: 1.8em;
     line-height: 2em;
     text-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff; }
-  /* line 93, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+  /* line 93, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
   #day-16 .wrapper #red {
     color: darkred;
     text-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px darkred, 0 0 30px darkred, 0 0 40px darkred, 0 0 50px darkred; }
-  /* line 99, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+  /* line 99, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
   #day-16 .wrapper .hvr-wobble-horizontal {
     display: block;
     vertical-align: middle;
@@ -1427,7 +1427,7 @@ header {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -moz-osx-font-smoothing: grayscale; }
-  /* line 109, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+  /* line 109, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
   #day-16 .wrapper .hvr-wobble-horizontal:hover, #day-16 .wrapper .hvr-wobble-horizontal:focus, #day-16 .wrapper .hvr-wobble-horizontal:active {
     -webkit-animation-name: hvr-wobble-horizontal;
     animation-name: hvr-wobble-horizontal;
@@ -1437,7 +1437,7 @@ header {
     animation-timing-function: ease-in-out;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1; }
-  /* line 120, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+  /* line 120, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
   #day-16 .wrapper .hvr-grow {
     display: block;
     vertical-align: middle;
@@ -1451,26 +1451,26 @@ header {
     transition-duration: 0.3s;
     -webkit-transition-property: -webkit-transform;
     transition-property: transform; }
-  /* line 134, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day16.scss */
+  /* line 134, /Users/kellymiller/merrycssmas/assets/scss/_day16.scss */
   #day-16 .wrapper .hvr-grow:hover, #day-16 .wrapper .hvr-grow:focus, #day-16 .wrapper .hvr-grow:active {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
         transform: scale(1.1); }
 
-/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day17.scss */
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day17.scss */
 #day-17 .day-link {
   color: #a42321; }
-  /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day17.scss */
+  /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day17.scss */
   #day-17 .day-link a {
     border: 1px solid #a42321;
     line-height: 0;
     padding: 1px 9px; }
-/* line 11, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day17.scss */
+/* line 11, /Users/kellymiller/merrycssmas/assets/scss/_day17.scss */
 #day-17 .wrapper {
   background-color: #7C2C38;
   padding: 100px 25px;
   position: relative; }
-  /* line 16, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day17.scss */
+  /* line 16, /Users/kellymiller/merrycssmas/assets/scss/_day17.scss */
   #day-17 .wrapper #left-quote, #day-17 .wrapper #right-quote {
     color: #5D212A;
     font-size: 5em;
@@ -1480,21 +1480,21 @@ header {
     @media (max-width: 430px) {
       #day-17 .wrapper #left-quote, #day-17 .wrapper #right-quote {
         font-size: 18em; } }
-  /* line 29, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day17.scss */
+  /* line 29, /Users/kellymiller/merrycssmas/assets/scss/_day17.scss */
   #day-17 .wrapper #left-quote {
     top: 0;
     left: 0; }
     @media (max-width: 430px) {
       #day-17 .wrapper #left-quote {
         top: 24px; } }
-  /* line 38, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day17.scss */
+  /* line 38, /Users/kellymiller/merrycssmas/assets/scss/_day17.scss */
   #day-17 .wrapper #right-quote {
     right: 0;
     top: 30%; }
     @media (max-width: 430px) {
       #day-17 .wrapper #right-quote {
         top: 45%; } }
-  /* line 47, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day17.scss */
+  /* line 47, /Users/kellymiller/merrycssmas/assets/scss/_day17.scss */
   #day-17 .wrapper h1 {
     font-family: 'Permanent Marker', cursive;
     color: white;
@@ -1509,15 +1509,15 @@ header {
       #day-17 .wrapper h1 {
         font-size: .75em; } }
 
-/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day18.scss */
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day18.scss */
 #day-18 .day-link {
   color: #a42321; }
-  /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day18.scss */
+  /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day18.scss */
   #day-18 .day-link a {
     border: 1px solid #A42321;
     line-height: 0;
     padding: 0 7px; }
-/* line 10, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day18.scss */
+/* line 10, /Users/kellymiller/merrycssmas/assets/scss/_day18.scss */
 #day-18 .wrapper {
   width: auto;
   height: auto;
@@ -1525,7 +1525,7 @@ header {
   position: relative;
   top: 5%;
   margin-bottom: 100px; }
-  /* line 18, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day18.scss */
+  /* line 18, /Users/kellymiller/merrycssmas/assets/scss/_day18.scss */
   #day-18 .wrapper .rotated-box {
     margin: 0 auto;
     display: inline-block;
@@ -1542,7 +1542,7 @@ header {
       #day-18 .wrapper .rotated-box {
         height: 100px;
         width: 100px; } }
-  /* line 32, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day18.scss */
+  /* line 32, /Users/kellymiller/merrycssmas/assets/scss/_day18.scss */
   #day-18 .wrapper .box {
     position: absolute;
     left: 0;
@@ -1551,11 +1551,11 @@ header {
     margin-right: auto;
     margin-top: 50px;
     top: 0; }
-  /* line 42, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day18.scss */
+  /* line 42, /Users/kellymiller/merrycssmas/assets/scss/_day18.scss */
   #day-18 .wrapper .joy {
     margin: 0 auto;
     padding-top: 55px; }
-    /* line 45, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day18.scss */
+    /* line 45, /Users/kellymiller/merrycssmas/assets/scss/_day18.scss */
     #day-18 .wrapper .joy .gold-text {
       display: block;
       width: 100%;
@@ -1572,7 +1572,7 @@ header {
       @media (max-width: 700px) {
         #day-18 .wrapper .joy .gold-text {
           font-size: 2em; } }
-    /* line 62, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day18.scss */
+    /* line 62, /Users/kellymiller/merrycssmas/assets/scss/_day18.scss */
     #day-18 .wrapper .joy h2 {
       font-family: 'Josefin slab', serif;
       text-align: center;
@@ -1584,40 +1584,40 @@ header {
           line-height: 1.2em; } }
 
 @-webkit-keyframes ding {
-  /* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+  /* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day19.scss */
   0%, 10% {
     color: white;
     text-shadow: 2px 2px 0 silver; }
 
-  /* line 6, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+  /* line 6, /Users/kellymiller/merrycssmas/assets/scss/_day19.scss */
   4% {
     color: silver;
     text-shadow: 2px 2px 4px #666777; } }
 
 @keyframes ding {
-  /* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+  /* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day19.scss */
   0%, 10% {
     color: white;
     text-shadow: 2px 2px 0 silver; }
 
-  /* line 6, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+  /* line 6, /Users/kellymiller/merrycssmas/assets/scss/_day19.scss */
   4% {
     color: silver;
     text-shadow: 2px 2px 4px #666777; } }
 
-/* line 13, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+/* line 13, /Users/kellymiller/merrycssmas/assets/scss/_day19.scss */
 #day-19 .day-link {
   color: #a42321; }
-  /* line 15, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+  /* line 15, /Users/kellymiller/merrycssmas/assets/scss/_day19.scss */
   #day-19 .day-link a {
     border: 1px solid #A42321;
     line-height: 0;
     padding: 0 7px; }
-/* line 21, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+/* line 21, /Users/kellymiller/merrycssmas/assets/scss/_day19.scss */
 #day-19 .wrapper {
   box-sizing: border-box;
   background-color: #9fbfdf; }
-  /* line 24, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+  /* line 24, /Users/kellymiller/merrycssmas/assets/scss/_day19.scss */
   #day-19 .wrapper .content {
     text-align: center;
     display: table-cell;
@@ -1633,51 +1633,51 @@ header {
         font-size: .7em;
         line-height: 1.2em;
         line-spacing: .2em; } }
-  /* line 40, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+  /* line 40, /Users/kellymiller/merrycssmas/assets/scss/_day19.scss */
   #day-19 .wrapper span {
     color: white;
     text-shadow: 1.5px 1.5px 0 silver; }
     @media (max-width: 900px) {
       #day-19 .wrapper span {
         text-shadow: 1px 1px silver; } }
-/* line 48, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+/* line 48, /Users/kellymiller/merrycssmas/assets/scss/_day19.scss */
 #day-19 .blink {
   -webkit-animation: flash 5s infinite;
           animation: flash 5s infinite; }
-/* line 51, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+/* line 51, /Users/kellymiller/merrycssmas/assets/scss/_day19.scss */
 #day-19 .ding-one {
   -webkit-animation: ding 5s infinite;
           animation: ding 5s infinite;
   -webkit-animation-delay: .2;
           animation-delay: .2; }
-/* line 55, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+/* line 55, /Users/kellymiller/merrycssmas/assets/scss/_day19.scss */
 #day-19 .dong-one {
   -webkit-animation: ding 5s infinite;
           animation: ding 5s infinite;
   -webkit-animation-delay: .6s;
           animation-delay: .6s; }
-/* line 59, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+/* line 59, /Users/kellymiller/merrycssmas/assets/scss/_day19.scss */
 #day-19 .ding-two {
   -webkit-animation: ding 5s infinite;
           animation: ding 5s infinite;
   -webkit-animation-delay: .8s;
           animation-delay: .8s; }
-/* line 63, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day19.scss */
+/* line 63, /Users/kellymiller/merrycssmas/assets/scss/_day19.scss */
 #day-19 .dong-two {
   -webkit-animation: ding 5s infinite;
           animation: ding 5s infinite;
   -webkit-animation-delay: 1s;
           animation-delay: 1s; }
 
-/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day20.scss */
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day20.scss */
 #day-20 .day-link {
   color: #a42321; }
-  /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day20.scss */
+  /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day20.scss */
   #day-20 .day-link a {
     border: 1px solid #A42321;
     line-height: 0;
     padding: 4px 4px; }
-/* line 11, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day20.scss */
+/* line 11, /Users/kellymiller/merrycssmas/assets/scss/_day20.scss */
 #day-20 .wrapper .container {
   position: relative;
   height: 260px;
@@ -1685,7 +1685,7 @@ header {
   @media (max-width: 500px) {
     #day-20 .wrapper .container {
       height: 200px; } }
-  /* line 19, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day20.scss */
+  /* line 19, /Users/kellymiller/merrycssmas/assets/scss/_day20.scss */
   #day-20 .wrapper .container .left, #day-20 .wrapper .container .right {
     width: 50%;
     position: absolute;
@@ -1708,7 +1708,7 @@ header {
       #day-20 .wrapper .container .left, #day-20 .wrapper .container .right {
         font-size: .4em;
         line-height: 1em; } }
-  /* line 42, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day20.scss */
+  /* line 42, /Users/kellymiller/merrycssmas/assets/scss/_day20.scss */
   #day-20 .wrapper .container .left {
     background-color: #d1eae2;
     color: #90d1c0;
@@ -1716,10 +1716,10 @@ header {
     text-align: right;
     font-family: "Playfair Display", serif;
     padding-right: 10px; }
-    /* line 51, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day20.scss */
+    /* line 51, /Users/kellymiller/merrycssmas/assets/scss/_day20.scss */
     #day-20 .wrapper .container .left h1 {
       margin-bottom: 10px; }
-  /* line 55, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day20.scss */
+  /* line 55, /Users/kellymiller/merrycssmas/assets/scss/_day20.scss */
   #day-20 .wrapper .container .right {
     background-color: #90d1c0;
     color: #d1eae2;
@@ -1728,10 +1728,10 @@ header {
     font-family: 'Quicksand', sans-serif;
     font-weight: 800;
     padding-left: 10px; }
-    /* line 63, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day20.scss */
+    /* line 63, /Users/kellymiller/merrycssmas/assets/scss/_day20.scss */
     #day-20 .wrapper .container .right h1 {
       margin-top: 10px; }
-  /* line 67, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day20.scss */
+  /* line 67, /Users/kellymiller/merrycssmas/assets/scss/_day20.scss */
   #day-20 .wrapper .container h2 {
     font-family: 'Playball', sans-serif;
     font-size: 2em;
@@ -1765,18 +1765,18 @@ header {
         top: 70%;
         font-size: 1em; } }
 
-/* line 1, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day21.scss */
+/* line 1, /Users/kellymiller/merrycssmas/assets/scss/_day21.scss */
 #day-21 {
   margin-top: 16px; }
-  /* line 3, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day21.scss */
+  /* line 3, /Users/kellymiller/merrycssmas/assets/scss/_day21.scss */
   #day-21 .day-link {
     color: #a42321; }
-    /* line 5, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day21.scss */
+    /* line 5, /Users/kellymiller/merrycssmas/assets/scss/_day21.scss */
     #day-21 .day-link a {
       border: 1px solid #a42321;
       line-height: 0;
       padding: 2px 8px; }
-  /* line 12, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day21.scss */
+  /* line 12, /Users/kellymiller/merrycssmas/assets/scss/_day21.scss */
   #day-21 .wrapper {
     background-color: #E5AA03;
     color: #F2B700;
@@ -1784,7 +1784,7 @@ header {
     padding: 50px 0;
     position: relative;
     z-index: -2; }
-    /* line 20, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day21.scss */
+    /* line 20, /Users/kellymiller/merrycssmas/assets/scss/_day21.scss */
     #day-21 .wrapper #star {
       position: absolute;
       font-size: 11em;
@@ -1799,7 +1799,7 @@ header {
         #day-21 .wrapper #star {
           font-size: 6em;
           top: 22px; } }
-    /* line 37, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day21.scss */
+    /* line 37, /Users/kellymiller/merrycssmas/assets/scss/_day21.scss */
     #day-21 .wrapper h1 {
       font-family: 'Alice', serif;
       font-size: 5em;
@@ -1809,24 +1809,24 @@ header {
       @media (max-width: 500px) {
         #day-21 .wrapper h1 {
           font-size: 3em; } }
-      /* line 49, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day21.scss */
+      /* line 49, /Users/kellymiller/merrycssmas/assets/scss/_day21.scss */
       #day-21 .wrapper h1 span {
         color: #E5AA03;
         text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.15), -1px -1px 0px rgba(0, 0, 0, 0.15);
         padding-bottom: 15px; }
 
-/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day22.scss */
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day22.scss */
 #day-22 .day-link {
   color: #a42321; }
-  /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day22.scss */
+  /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day22.scss */
   #day-22 .day-link a {
     border: 1px solid #A42321;
     line-height: 0;
     padding: 6px 5px; }
-/* line 10, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day22.scss */
+/* line 10, /Users/kellymiller/merrycssmas/assets/scss/_day22.scss */
 #day-22 .wrapper {
   margin-bottom: 0; }
-  /* line 12, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day22.scss */
+  /* line 12, /Users/kellymiller/merrycssmas/assets/scss/_day22.scss */
   #day-22 .wrapper .textwrap {
     width: 400px;
     padding-top: 10px;
@@ -1839,7 +1839,7 @@ header {
       #day-22 .wrapper .textwrap {
         width: 280px;
         margin-top: 30px; } }
-  /* line 26, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day22.scss */
+  /* line 26, /Users/kellymiller/merrycssmas/assets/scss/_day22.scss */
   #day-22 .wrapper .text {
     width: 380px;
     margin-left: auto;
@@ -1850,7 +1850,7 @@ header {
     @media (max-width: 500px) {
       #day-22 .wrapper .text {
         width: 260px; } }
-  /* line 37, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day22.scss */
+  /* line 37, /Users/kellymiller/merrycssmas/assets/scss/_day22.scss */
   #day-22 .wrapper .firstfont {
     font-family: 'Josefin Slab', serif;
     font-size: .8em;
@@ -1862,59 +1862,59 @@ header {
       #day-22 .wrapper .firstfont {
         font-size: .5em;
         letter-spacing: 5px; } }
-  /* line 49, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day22.scss */
+  /* line 49, /Users/kellymiller/merrycssmas/assets/scss/_day22.scss */
   #day-22 .wrapper p {
     margin: 0 0 10px;
     text-align: center; }
-  /* line 54, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day22.scss */
+  /* line 54, /Users/kellymiller/merrycssmas/assets/scss/_day22.scss */
   #day-22 .wrapper .waiting > *:nth-child(1) {
     -ms-transform: rotate(-10deg);
     -webkit-transform: rotate(-10deg);
     transform: rotate(-10deg);
     display: inline-block; }
-  /* line 60, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day22.scss */
+  /* line 60, /Users/kellymiller/merrycssmas/assets/scss/_day22.scss */
   #day-22 .wrapper .waiting > *:nth-child(2) {
     -ms-transform: rotate(-6deg);
     -webkit-transform: rotate(-6deg);
     transform: rotate(-6deg);
     display: inline-block;
     vertical-align: 5px; }
-  /* line 67, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day22.scss */
+  /* line 67, /Users/kellymiller/merrycssmas/assets/scss/_day22.scss */
   #day-22 .wrapper .waiting > *:nth-child(3) {
     -ms-transform: rotate(-4deg);
     -webkit-transform: rotate(-4deg);
     transform: rotate(-4deg);
     display: inline-block;
     vertical-align: 7px; }
-  /* line 74, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day22.scss */
+  /* line 74, /Users/kellymiller/merrycssmas/assets/scss/_day22.scss */
   #day-22 .wrapper .waiting > *:nth-child(4) {
     -ms-transform: rotate(-2deg);
     -webkit-transform: rotate(-2deg);
     transform: rotate(-2deg);
     display: inline-block;
     vertical-align: 9px; }
-  /* line 81, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day22.scss */
+  /* line 81, /Users/kellymiller/merrycssmas/assets/scss/_day22.scss */
   #day-22 .wrapper .waiting > *:nth-child(5) {
     -ms-transform: rotate(2deg);
     -webkit-transform: rotate(2deg);
     transform: rotate(2deg);
     display: inline-block;
     vertical-align: 8px; }
-  /* line 88, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day22.scss */
+  /* line 88, /Users/kellymiller/merrycssmas/assets/scss/_day22.scss */
   #day-22 .wrapper .waiting > *:nth-child(6) {
     -ms-transform: rotate(8deg);
     -webkit-transform: rotate(8deg);
     transform: rotate(8deg);
     display: inline-block;
     vertical-align: 5px; }
-  /* line 95, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day22.scss */
+  /* line 95, /Users/kellymiller/merrycssmas/assets/scss/_day22.scss */
   #day-22 .wrapper .waiting > *:nth-child(7) {
     -ms-transform: rotate(10deg);
     -webkit-transform: rotate(10deg);
     transform: rotate(10deg);
     display: inline-block;
     vertical-align: 1px; }
-  /* line 102, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day22.scss */
+  /* line 102, /Users/kellymiller/merrycssmas/assets/scss/_day22.scss */
   #day-22 .wrapper .secondfont {
     font-family: 'Fjalla One', sans-serif;
     font-size: 2em;
@@ -1923,18 +1923,18 @@ header {
     color: white;
     padding-left: 15px;
     text-transform: uppercase; }
-  /* line 111, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day22.scss */
+  /* line 111, /Users/kellymiller/merrycssmas/assets/scss/_day22.scss */
   #day-22 .wrapper .thirdfont {
     font-family: 'Parisienne', cursive;
     font-size: 1.75em;
     color: #a81d22;
     background-image: -webkit-linear-gradient(top, transparent 0%, transparent 50%, #a81d22 50%, #a81d22 52%, transparent 52%, transparent 100%);
     background-image: linear-gradient(to bottom, transparent 0%, transparent 50%, #a81d22 50%, #a81d22 52%, transparent 52%, transparent 100%); }
-  /* line 117, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day22.scss */
+  /* line 117, /Users/kellymiller/merrycssmas/assets/scss/_day22.scss */
   #day-22 .wrapper #mistletoe {
     background-color: #cfe1b2;
     padding: 0 10px; }
-  /* line 121, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day22.scss */
+  /* line 121, /Users/kellymiller/merrycssmas/assets/scss/_day22.scss */
   #day-22 .wrapper .fourthfont {
     font-family: 'Old Standard TT', serif;
     font-size: 1.15em;
@@ -1946,15 +1946,15 @@ header {
     padding-left: 10px;
     padding-right: 10px; }
 
-/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day23.scss */
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day23.scss */
 #day-23 .day-link {
   color: #a42321; }
-  /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day23.scss */
+  /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day23.scss */
   #day-23 .day-link a {
     border: 1px solid #a42321;
     line-height: 0;
     padding: 2px 5px; }
-/* line 11, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day23.scss */
+/* line 11, /Users/kellymiller/merrycssmas/assets/scss/_day23.scss */
 #day-23 .wrapper {
   background-color: #F0ECEC;
   font-family: 'Vollkorn', serif;
@@ -1974,19 +1974,19 @@ header {
       -webkit-column-width: 100%;
          -moz-column-width: 100%;
               column-width: 100%; } }
-  /* line 24, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day23.scss */
+  /* line 24, /Users/kellymiller/merrycssmas/assets/scss/_day23.scss */
   #day-23 .wrapper p {
     color: #2D2828;
     padding-top: 5px;
     font-size: 1em; }
-    /* line 29, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day23.scss */
+    /* line 29, /Users/kellymiller/merrycssmas/assets/scss/_day23.scss */
     #day-23 .wrapper p sup {
       vertical-align: super;
       font-size: smaller; }
   @media (max-width: 500px) {
     #day-23 .wrapper .reference {
       text-align: right; } }
-  /* line 41, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day23.scss */
+  /* line 41, /Users/kellymiller/merrycssmas/assets/scss/_day23.scss */
   #day-23 .wrapper h1 {
     font-family: 'Vollkorn', serif;
     font-style: italic;
@@ -1995,19 +1995,19 @@ header {
     display: inline-block;
     border-top: 3px solid #2D2828; }
 
-/* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day24.scss */
+/* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day24.scss */
 #day-24 .day-link {
   color: #a42321; }
-  /* line 4, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day24.scss */
+  /* line 4, /Users/kellymiller/merrycssmas/assets/scss/_day24.scss */
   #day-24 .day-link a {
     border: 1px solid #a42321;
     line-height: 0;
     padding: 4px 2px; }
-/* line 10, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day24.scss */
+/* line 10, /Users/kellymiller/merrycssmas/assets/scss/_day24.scss */
 #day-24 .wrapper {
   padding: 5%;
   position: relative; }
-  /* line 13, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day24.scss */
+  /* line 13, /Users/kellymiller/merrycssmas/assets/scss/_day24.scss */
   #day-24 .wrapper .text {
     text-align: left;
     width: 80%;
@@ -2017,10 +2017,10 @@ header {
     @media (max-width: 500px) {
       #day-24 .wrapper .text {
         margin-left: 0; } }
-  /* line 23, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day24.scss */
+  /* line 23, /Users/kellymiller/merrycssmas/assets/scss/_day24.scss */
   #day-24 .wrapper h1 {
     color: #b30000; }
-  /* line 26, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day24.scss */
+  /* line 26, /Users/kellymiller/merrycssmas/assets/scss/_day24.scss */
   #day-24 .wrapper #font-one {
     font-family: 'Karla', sans-serif;
     font-weight: 100;
@@ -2035,7 +2035,7 @@ header {
     @media (max-width: 900px) {
       #day-24 .wrapper #font-one {
         font-size: 1.5em; } }
-  /* line 41, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day24.scss */
+  /* line 41, /Users/kellymiller/merrycssmas/assets/scss/_day24.scss */
   #day-24 .wrapper #font-three {
     font-family: 'Cinzel Decorative', cursive;
     text-transform: uppercase;
@@ -2052,7 +2052,7 @@ header {
       #day-24 .wrapper #font-three {
         font-size: 2em;
         padding-left: 15px; } }
-  /* line 63, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day24.scss */
+  /* line 63, /Users/kellymiller/merrycssmas/assets/scss/_day24.scss */
   #day-24 .wrapper .before:before {
     content: "before";
     font-family: 'Petit Formal Script', cursive;
@@ -2072,7 +2072,7 @@ header {
     @media (max-width: 500px) {
       #day-24 .wrapper .before:before {
         top: -15px; } }
-  /* line 88, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day24.scss */
+  /* line 88, /Users/kellymiller/merrycssmas/assets/scss/_day24.scss */
   #day-24 .wrapper hr {
     border: 0;
     height: 0;
@@ -2080,46 +2080,136 @@ header {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
 
 @keyframes snow {
-  /* line 2, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day25.scss */
+  /* line 2, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
   0% {
     background-position: 0px 0px, 0px 0px, 0px 0px; }
 
-  /* line 5, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day25.scss */
+  /* line 5, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
   50% {
     background-position: 500px 500px, 100px 200px, -100px 150px; }
 
-  /* line 8, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day25.scss */
+  /* line 8, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
   100% {
     background-position: 500px 1000px, 200px 400px, -100px 300px; } }
 
 @-webkit-keyframes snow {
-  /* line 24, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day25.scss */
+  /* line 24, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
   0% {
     background-position: 0px 0px, 0px 0px, 0px 0px; }
 
-  /* line 27, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day25.scss */
+  /* line 27, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
   50% {
     background-position: 500px 500px, 100px 200px, -100px 150px; }
 
-  /* line 30, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day25.scss */
+  /* line 30, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
   100% {
     background-position: 500px 1000px, 200px 400px, -100px 300px; } }
 
-/* line 47, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day25.scss */
+@-webkit-keyframes blink {
+  /* line 47, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  0% {
+    visibility: hidden; }
+
+  /* line 48, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  5% {
+    visibility: visible; }
+
+  /* line 49, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  10% {
+    visibility: hidden; }
+
+  /* line 50, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  12% {
+    visibility: visible; }
+
+  /* line 51, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  20% {
+    visibility: hidden; }
+
+  /* line 52, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  23% {
+    visibility: visible; }
+
+  /* line 53, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  75% {
+    visibility: hidden; }
+
+  /* line 54, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  77% {
+    visibility: visible; }
+
+  /* line 55, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  88% {
+    visibility: hidden; }
+
+  /* line 56, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  91% {
+    visibility: visible; }
+
+  /* line 57, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  100% {
+    visibility: visible; } }
+
+@keyframes blink {
+  /* line 47, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  0% {
+    visibility: hidden; }
+
+  /* line 48, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  5% {
+    visibility: visible; }
+
+  /* line 49, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  10% {
+    visibility: hidden; }
+
+  /* line 50, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  12% {
+    visibility: visible; }
+
+  /* line 51, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  20% {
+    visibility: hidden; }
+
+  /* line 52, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  23% {
+    visibility: visible; }
+
+  /* line 53, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  75% {
+    visibility: hidden; }
+
+  /* line 54, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  77% {
+    visibility: visible; }
+
+  /* line 55, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  88% {
+    visibility: hidden; }
+
+  /* line 56, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  91% {
+    visibility: visible; }
+
+  /* line 57, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  100% {
+    visibility: visible; } }
+
+/* line 61, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
 #day-25 .day-link {
   color: #a42321; }
-  /* line 49, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day25.scss */
+  /* line 63, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
   #day-25 .day-link a {
     border: 1px solid #a42321;
     line-height: 0;
     padding: 4px 5px; }
-/* line 55, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day25.scss */
+/* line 69, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
 #day-25 .wrapper {
   padding: 5%;
   position: relative;
   background-color: #6da1cd;
   height: 90vh; }
-  /* line 60, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day25.scss */
+  /* line 74, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
   #day-25 .wrapper .snow {
     background: none;
     background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
@@ -2131,14 +2221,51 @@ header {
     z-index: 1;
     -webkit-animation: snow 10s linear infinite;
     animation: snow 10s linear infinite; }
+  /* line 89, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  #day-25 .wrapper h1 {
+    margin-top: 150px;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 5em;
+    -webkit-transform: rotate(-7deg) skewX(-7deg);
+        -ms-transform: rotate(-7deg) skewX(-7deg);
+            transform: rotate(-7deg) skewX(-7deg);
+    color: white;
+    text-shadow: 2px 0 0 #4692c6; }
+  /* line 100, /Users/kellymiller/merrycssmas/assets/scss/_day25.scss */
+  #day-25 .wrapper h2 {
+    font-family: 'Cookie', cursive;
+    text-align: center;
+    margin-left: 45px;
+    font-size: 2em;
+    -webkit-transform: rotate(-7deg) skewX(-7deg);
+        -ms-transform: rotate(-7deg) skewX(-7deg);
+            transform: rotate(-7deg) skewX(-7deg);
+    color: lemonchiffon;
+    text-shadow: 0 0 3px lemonchiffon;
+    -webkit-animation-name: blink;
+            animation-name: blink;
+    -webkit-animation-duration: 8s;
+            animation-duration: 8s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-fill-mode: none;
+            animation-fill-mode: none;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s; }
 
-/* line 1, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_footer.scss */
+/* line 1, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
 footer {
   background-color: #A42321;
   color: #F1ECDA;
   font-family: 'Playfair Display', serif;
   padding: 25px 0; }
-  /* line 8, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_footer.scss */
+  /* line 8, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
   footer #denise {
     float: left;
     width: 50%;
@@ -2151,7 +2278,7 @@ footer {
     @media (max-width: 500px) {
       footer #denise {
         padding: 0 50px 25px; } }
-  /* line 23, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_footer.scss */
+  /* line 23, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
   footer #kelly {
     float: left;
     width: 50%;
@@ -2163,10 +2290,10 @@ footer {
     @media (max-width: 500px) {
       footer #kelly {
         padding: 0 50px 25px; } }
-  /* line 37, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_footer.scss */
+  /* line 37, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
   footer .bio {
     line-height: 1.2; }
-    /* line 39, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_footer.scss */
+    /* line 39, /Users/kellymiller/merrycssmas/assets/scss/_footer.scss */
     footer .bio h1 {
       font-weight: 700;
       font-size: 1.5em;
