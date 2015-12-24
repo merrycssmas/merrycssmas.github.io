@@ -85,6 +85,7 @@
             @include max-width(700px) {
                 top: 0;
             }
+            
             @include max-width(900px) {
                 top: 5px;
             }
