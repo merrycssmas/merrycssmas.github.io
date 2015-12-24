@@ -2011,20 +2011,16 @@ header {
   #day-24 .wrapper .text {
     text-align: left;
     width: 80%;
-    margin: 0 auto;
-    padding: 60px;
-    padding-left: 30px; }
-    @media (max-width: 450px) {
-      #day-24 .wrapper .text {
-        padding-left: 10px; } }
+    margin-left: 10%;
+    padding-top: 60px;
+    padding-bottom: 60px; }
     @media (max-width: 500px) {
       #day-24 .wrapper .text {
-        width: 100%;
-        padding: 30px; } }
-  /* line 27, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day24.scss */
+        margin-left: 0; } }
+  /* line 23, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day24.scss */
   #day-24 .wrapper h1 {
     color: #b30000; }
-  /* line 30, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day24.scss */
+  /* line 26, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day24.scss */
   #day-24 .wrapper #font-one {
     font-family: 'Karla', sans-serif;
     font-weight: 100;
@@ -2039,7 +2035,7 @@ header {
     @media (max-width: 900px) {
       #day-24 .wrapper #font-one {
         font-size: 1.5em; } }
-  /* line 45, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day24.scss */
+  /* line 41, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day24.scss */
   #day-24 .wrapper #font-three {
     font-family: 'Cinzel Decorative', cursive;
     text-transform: uppercase;
@@ -2048,19 +2044,15 @@ header {
     position: relative;
     padding-left: 30px;
     padding-top: 10px; }
-    @media (max-width: 500px) {
-      #day-24 .wrapper #font-three {
-        font-size: 2.5em;
-        padding-left: 15px; } }
-    @media (max-width: 700px) {
-      #day-24 .wrapper #font-three {
-        font-size: 3em;
-        padding-left: 20px; } }
     @media (max-width: 900px) {
       #day-24 .wrapper #font-three {
         font-size: 4em;
         padding-left: 20px; } }
-  /* line 66, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day24.scss */
+    @media (max-width: 500px) {
+      #day-24 .wrapper #font-three {
+        font-size: 2em;
+        padding-left: 15px; } }
+  /* line 63, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day24.scss */
   #day-24 .wrapper .before:before {
     content: "before";
     font-family: 'Petit Formal Script', cursive;
@@ -2074,16 +2066,13 @@ header {
     width: 100px;
     left: -45px;
     top: 25px; }
-    @media (max-width: 400px) {
-      #day-24 .wrapper .before:before {
-        top: -50px; } }
-    @media (max-width: 700px) {
-      #day-24 .wrapper .before:before {
-        top: 0; } }
     @media (max-width: 900px) {
       #day-24 .wrapper .before:before {
         top: 5px; } }
-  /* line 87, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day24.scss */
+    @media (max-width: 500px) {
+      #day-24 .wrapper .before:before {
+        top: -15px; } }
+  /* line 88, /Users/deniseblankenberger/Documents/merrrycssmas/assets/scss/_day24.scss */
   #day-24 .wrapper hr {
     border: 0;
     height: 0;
